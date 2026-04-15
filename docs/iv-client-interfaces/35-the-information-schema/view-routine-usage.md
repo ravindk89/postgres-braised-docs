@@ -1,0 +1,63 @@
+---
+title: "35.64. view_routine_usage"
+id: infoschema-view-routine-usage
+---
+
+## `view_routine_usage`
+
+The view `view_routine_usage` identifies all routines (functions and procedures) that are used in the query expression of a view (the `SELECT` statement that defines the view).
+A routine is only included if that routine is owned by a currently enabled role.
+
+:::{.table}
+  :::{.row header="true"}
+  :::{.cell}
+   Column Type
+
+   Description
+  :::{/cell}
+  :::{/row}
+  :::{.row}
+  :::{.cell}
+   table_catalog `sql_identifier`
+
+   Name of the database containing the view (always the current database)
+  :::{/cell}
+  :::{/row}
+  :::{.row}
+  :::{.cell}
+   table_schema `sql_identifier`
+
+   Name of the schema containing the view
+  :::{/cell}
+  :::{/row}
+  :::{.row}
+  :::{.cell}
+   table_name `sql_identifier`
+
+   Name of the view
+  :::{/cell}
+  :::{/row}
+  :::{.row}
+  :::{.cell}
+   specific_catalog `sql_identifier`
+
+   Name of the database containing the function (always the current database)
+  :::{/cell}
+  :::{/row}
+  :::{.row}
+  :::{.cell}
+   specific_schema `sql_identifier`
+
+   Name of the schema containing the function
+  :::{/cell}
+  :::{/row}
+  :::{.row}
+  :::{.cell}
+   specific_name `sql_identifier`
+
+   The "specific name" of the function. See [routines](braised:ref/infoschema-routines) for more information.
+  :::{/cell}
+  :::{/row}
+:::{/table}
+
+: view_routine_usage Columns

@@ -1,0 +1,11 @@
+---
+title: 27. Monitoring Database Activity
+id: monitoring
+---
+
+A database administrator frequently wonders, "What is the system doing right now?
+This chapter discusses how to find that out.
+
+Several tools are available for monitoring database activity and analyzing performance.
+Most of this chapter is devoted to describing PostgreSQL\'s cumulative statistics system, but one should not neglect regular Unix monitoring programs such as `ps`, `top`, `iostat`, and `vmstat`.
+Also, once one has identified a poorly-performing query, further investigation might be needed using PostgreSQL\'s [`EXPLAIN`](#sql-explain) command. [Section 14.1](braised:ref/using-explain) discusses `EXPLAIN` and other methods for understanding the behavior of an individual query.

@@ -1,0 +1,46 @@
+---
+title: "B.1. Date/Time Input Interpretation"
+id: datetime-input-rules
+---
+
+## Date/Time Input Interpretation
+
+Date/time input strings are decoded using the following procedure.
+
+-   Break the input string into tokens and categorize each token as a string, time, time zone, or number.
+
+    If the numeric token contains a colon (`:`), this is a time string. Include all subsequent digits and colons.
+
+    If the numeric token contains a dash (`-`), slash (`/`), or two or more dots (`.`), this is a date string which might have a text month. If a date token has already been seen, it is instead interpreted as a time zone name (e.g., `America/New_York`).
+
+    If the token is numeric only, then it is either a single field or an ISO 8601 concatenated date (e.g., `19990113` for January 13, 1999) or time (e.g., `141516` for 14:15:16).
+
+    If the token starts with a plus (`+`) or minus (`-`), then it is either a numeric time zone or a special field.
+
+-   If the token is an alphabetic string, match up with possible strings:
+
+    See if the token matches any known time zone abbreviation. These abbreviations are determined by the configuration settings described in [B.4. Date/Time Configuration Files](braised:ref/datetime-config-files).
+
+    If not found, search an internal table to match the token as either a special string (e.g., `today`), day (e.g., `Thursday`), month (e.g., `January`), or noise word (e.g., `at`, `on`).
+
+    If still not found, throw an error.
+
+-   When the token is a number or number field:
+
+    If there are eight or six digits, and if no other date fields have been previously read, then interpret as a "concatenated date" (e.g., `19990118` or `990118`). The interpretation is `YYYYMMDD` or `YYMMDD`.
+
+    If the token is three digits and a year has already been read, then interpret as day of year.
+
+    If four or six digits and a year has already been read, then interpret as a time (`HHMM` or `HHMMSS`).
+
+    If three or more digits and no date fields have yet been found, interpret as a year (this forces yy-mm-dd ordering of the remaining date fields).
+
+    Otherwise the date field ordering is assumed to follow the `DateStyle` setting: mm-dd-yy, dd-mm-yy, or yy-mm-dd. Throw an error if a month or day field is found to be out of range.
+
+-   If BC has been specified, negate the year and add one for internal storage. (There is no year zero in the Gregorian calendar, so numerically 1 BC becomes year zero.)
+
+-   If BC was not specified, and if the year field was two digits in length, then adjust the year to four digits. If the field is less than 70, then add 2000, otherwise add 1900.
+
+    :::{.callout type="tip"}
+    Gregorian years AD 199 can be entered by using 4 digits with leading zeros (e.g., `0099` is AD 99).
+    :::

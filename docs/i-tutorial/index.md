@@ -1,0 +1,16 @@
+---
+title: I. Tutorial
+id: tutorial
+hide_aside: true
+nav_collapsed: true
+---
+
+Welcome to the PostgreSQL Tutorial.
+The tutorial is intended to give an introduction to PostgreSQL, relational database concepts, and the SQL language.
+We assume some general knowledge about how to use computers and no particular Unix or programming experience is required.
+This tutorial is intended to provide hands-on experience with important aspects of the PostgreSQL system.
+It makes no attempt to be a comprehensive treatment of the topics it covers.
+
+After you have successfully completed this tutorial you will want to read the [II. The SQL Language](braised:ref/sql) section to gain a better understanding of the SQL language, or [IV.
+Client Interfaces](braised:ref/client-interfaces) for information about developing applications with PostgreSQL.
+Those who provision and manage their own PostgreSQL installation should also read [III. Server Administration](braised:ref/admin).
