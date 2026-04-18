@@ -20,7 +20,7 @@ jobs:
         run: docker run --rm -v $(pwd):/site ghcr.io/ravindk89/braised:latest build --config braised-prod.yaml
 
       - name: Deploy
-        uses: burnett01/rsync-deployments@7.0.2
+        uses: burnett01/rsync-deployments@v8
         with:
           switches: --mkpath -rv --delete
           path: ./dist/
@@ -29,4 +29,3 @@ jobs:
           remote_port: ${{ secrets.DEPLOY_PORT }}
           remote_user: deploy-prod
           remote_key: ${{ secrets.DEPLOY_KEY }}
-          remote_key_pass: ${{ secrets.DEPLOY_KEY_PASS }}

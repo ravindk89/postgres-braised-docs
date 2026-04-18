@@ -1,0 +1,34 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: prod
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build site
+        run: docker run --rm -v $(pwd):/site ghcr.io/ravindk89/braised:latest build --config braised-prod.yaml
+
+      - name: Install sshpass
+        run: sudo apt-get update && sudo apt-get install -y sshpass
+
+      - name: Deploy
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_KEY_PASS: ${{ secrets.DEPLOY_KEY_PASS }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+        run: |
+          set -euo pipefail
+          eval $(ssh-agent)
+          trap 'ssh-agent -k' EXIT
+          SSHPASS="$DEPLOY_KEY_PASS" sshpass -e ssh-add - <<< "$(echo "$DEPLOY_KEY" | base64 -d)"
+          rsync --mkpath -rv --delete \
+            -e "ssh -p \"$DEPLOY_PORT\" -o StrictHostKeyChecking=no" \
+            ./dist/ \
+            deploy-prod@"$DEPLOY_HOST":"$DEPLOY_PATH"/
