@@ -5,7 +5,7 @@ id: home
 
 This is a showcase project that uses a well-known documentation corpus (PostGreSQL) to create an unofficial Markdown-based documentation site.
 
-This project in particular uses BraiseDocs, a personal project that aims to bring pieces of various docs tooling I've used over the years and merge them with features that I've long since wanted.
+This project in particular uses [Braised Docs](https://ravindkumar.com/braised-docs?ref=internal), a personal project that aims to bring pieces of various docs tooling I've used over the years and merge them with features that I've long since wanted.
 In context of this project, it automatically vectorized the docs into ChromaDB and serves access via an MCP server.
 The entire circle - building, hosting, vectorizing, and MCP connection - all come entirely from the docs pipeline.
 
@@ -36,8 +36,9 @@ BraiseDocs doesn't do embedding itself - it uses a simple pipeline structure to 
 
 For this particular site, I used `nomic-embed-text` and `chromadb` computed on a AMD 9070XT using ollama and vulkan extensions.
 The ChromaDB data is enhanced with a BM25 search model to help improve the quality of chunk rankings returned.
+The full pipeline/hosting isn't in place yet, but it works in practice, and I'll update this section when it's all done and working.
 
-BraiseDocs chunks data such that it works to preserve breadcrumbs and heading details, so each individual chunk is as closely correlated to the page topic as possible.
+Braised chunks data such that it works to preserve breadcrumbs and heading details, so each individual chunk is as closely correlated to the page topic as possible.
 It supports chunk 'hinting' to handle sections that the chunking script/tool struggles with, though that feature is unused in this project.
 
 ## Disclaimer

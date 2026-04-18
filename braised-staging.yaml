@@ -1,0 +1,14 @@
+site:
+  title: PostgreSQL 18 Documentation
+  url: https://staging.ravindkumar.com
+  base_url: /postgres-docs
+  description: The official PostgreSQL documentation.
+
+build:
+  output: ./dist
+  drafts: false
+
+css:
+  input: theme/main.css
+
+nav: nav-braised.yaml
