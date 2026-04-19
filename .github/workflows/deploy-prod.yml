@@ -29,3 +29,4 @@ jobs:
           remote_port: ${{ secrets.DEPLOY_PORT }}
           remote_user: deploy-prod
           remote_key: ${{ secrets.DEPLOY_KEY }}
+          remote_key_pass: ${{ secrets.DEPLOY_KEY_PASS }}
