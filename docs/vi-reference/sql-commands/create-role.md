@@ -5,7 +5,7 @@ id: sql-createrole
 description: "define a new database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE ROLE name [ [ WITH ] option [ ... ] ]
 
 where option can be:

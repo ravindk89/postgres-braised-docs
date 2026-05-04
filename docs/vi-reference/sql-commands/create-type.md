@@ -5,7 +5,7 @@ id: sql-createtype
 description: "define a new data type"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE TYPE name AS
  ( [ attribute_name data_type [ COLLATE collation ] [, ... ] ] )
 

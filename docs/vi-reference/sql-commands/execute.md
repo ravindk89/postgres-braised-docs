@@ -5,7 +5,7 @@ id: sql-execute
 description: "execute a prepared statement"
 ---
 
-:::synopsis
+:::{.synopsis}
 EXECUTE name [ ( parameter [, ...] ) ]
 :::
 

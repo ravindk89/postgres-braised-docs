@@ -5,7 +5,7 @@ id: sql-set-constraints
 description: "set constraint check timing for the current transaction"
 ---
 
-:::synopsis
+:::{.synopsis}
 SET CONSTRAINTS { ALL | name [, ...] } { DEFERRED | IMMEDIATE }
 :::
 

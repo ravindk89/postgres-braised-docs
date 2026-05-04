@@ -5,7 +5,7 @@ id: app-postgres
 description: "PostgreSQL database server"
 ---
 
-:::synopsis
+:::{.synopsis}
 postgres
  option
 :::

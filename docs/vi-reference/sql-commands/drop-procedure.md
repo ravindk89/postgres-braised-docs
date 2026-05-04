@@ -5,7 +5,7 @@ id: sql-dropprocedure
 description: "remove a procedure"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP PROCEDURE [ IF EXISTS ] name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ] [, ...]
  [ CASCADE | RESTRICT ]
 :::

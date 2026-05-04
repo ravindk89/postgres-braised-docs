@@ -5,7 +5,7 @@ id: sql-createtstemplate
 description: "define a new text search template"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE TEXT SEARCH TEMPLATE name (
  [ INIT = init_function , ]
  LEXIZE = lexize_function

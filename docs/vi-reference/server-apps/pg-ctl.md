@@ -5,7 +5,7 @@ id: app-pg-ctl
 description: "initialize, start, stop, or control a PostgreSQL server"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_ctl
  init[db]
  -D datadir

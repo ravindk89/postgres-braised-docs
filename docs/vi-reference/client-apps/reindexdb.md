@@ -5,7 +5,7 @@ id: app-reindexdb
 description: "reindex a PostgreSQL database"
 ---
 
-:::synopsis
+:::{.synopsis}
 reindexdb
  connection-option
  option

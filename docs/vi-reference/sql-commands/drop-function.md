@@ -5,7 +5,7 @@ id: sql-dropfunction
 description: "remove a function"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP FUNCTION [ IF EXISTS ] name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ] [, ...]
  [ CASCADE | RESTRICT ]
 :::

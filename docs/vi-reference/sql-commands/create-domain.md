@@ -5,7 +5,7 @@ id: sql-createdomain
 description: "define a new domain"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE DOMAIN name [ AS ] data_type
  [ COLLATE collation ]
  [ DEFAULT expression ]

@@ -5,7 +5,7 @@ id: sql-reindex
 description: "rebuild indexes"
 ---
 
-:::synopsis
+:::{.synopsis}
 REINDEX [ ( option [, ...] ) ] { INDEX | TABLE | SCHEMA } [ CONCURRENTLY ] name
 REINDEX [ ( option [, ...] ) ] { DATABASE | SYSTEM } [ CONCURRENTLY ] [ name ]
 

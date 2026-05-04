@@ -5,7 +5,7 @@ id: sql-alterindex
 description: "change the definition of an index"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER INDEX [ IF EXISTS ] name RENAME TO new_name
 ALTER INDEX [ IF EXISTS ] name SET TABLESPACE tablespace_name
 ALTER INDEX name ATTACH PARTITION index_name

@@ -5,7 +5,7 @@ id: sql-droptsdictionary
 description: "remove a text search dictionary"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TEXT SEARCH DICTIONARY [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

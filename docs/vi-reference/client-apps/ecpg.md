@@ -5,7 +5,7 @@ id: app-ecpg
 description: "embedded SQL C preprocessor"
 ---
 
-:::synopsis
+:::{.synopsis}
 ecpg
  option
  file

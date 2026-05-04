@@ -5,7 +5,7 @@ id: sql-createtsconfig
 description: "define a new text search configuration"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE TEXT SEARCH CONFIGURATION name (
  PARSER = parser_name |
  COPY = source_config

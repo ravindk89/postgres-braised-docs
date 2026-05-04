@@ -5,7 +5,7 @@ id: app-createdb
 description: "create a new PostgreSQL database"
 ---
 
-:::synopsis
+:::{.synopsis}
 createdb
  connection-option
  option

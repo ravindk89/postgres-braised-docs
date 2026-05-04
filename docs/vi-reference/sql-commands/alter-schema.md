@@ -5,7 +5,7 @@ id: sql-alterschema
 description: "change the definition of a schema"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER SCHEMA name RENAME TO new_name
 ALTER SCHEMA name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
 :::

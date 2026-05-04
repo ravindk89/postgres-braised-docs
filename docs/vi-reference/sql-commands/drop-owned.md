@@ -5,7 +5,7 @@ id: sql-drop-owned
 description: "remove database objects owned by a database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP OWNED BY { name | CURRENT_ROLE | CURRENT_USER | SESSION_USER } [, ...] [ CASCADE | RESTRICT ]
 :::
 

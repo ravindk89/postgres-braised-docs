@@ -5,7 +5,7 @@ id: sql-createserver
 description: "define a new foreign server"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE SERVER [ IF NOT EXISTS ] server_name [ TYPE 'server_type' ] [ VERSION 'server_version' ]
  FOREIGN DATA WRAPPER fdw_name
  [ OPTIONS ( option 'value' [, ... ] ) ]

@@ -5,7 +5,7 @@ id: sql-droptstemplate
 description: "remove a text search template"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TEXT SEARCH TEMPLATE [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

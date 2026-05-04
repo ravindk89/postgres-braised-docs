@@ -5,7 +5,7 @@ id: sql-altereventtrigger
 description: "change the definition of an event trigger"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER EVENT TRIGGER name DISABLE
 ALTER EVENT TRIGGER name ENABLE [ REPLICA | ALWAYS ]
 ALTER EVENT TRIGGER name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }

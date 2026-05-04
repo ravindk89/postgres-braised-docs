@@ -5,7 +5,7 @@ id: app-pgchecksums
 description: "enable, disable or check data checksums in a PostgreSQL database cluster"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_checksums
  option
  

@@ -5,7 +5,7 @@ id: sql-droproutine
 description: "remove a routine"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP ROUTINE [ IF EXISTS ] name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ] [, ...]
  [ CASCADE | RESTRICT ]
 :::

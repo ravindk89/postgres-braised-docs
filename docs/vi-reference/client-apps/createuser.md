@@ -5,7 +5,7 @@ id: app-createuser
 description: "define a new PostgreSQL user account"
 ---
 
-:::synopsis
+:::{.synopsis}
 createuser
  connection-option
  option

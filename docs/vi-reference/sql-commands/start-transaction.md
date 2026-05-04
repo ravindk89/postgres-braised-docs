@@ -5,7 +5,7 @@ id: sql-start-transaction
 description: "start a transaction block"
 ---
 
-:::synopsis
+:::{.synopsis}
 START TRANSACTION [ transaction_mode [, ...] ]
 
 where transaction_mode is one of:

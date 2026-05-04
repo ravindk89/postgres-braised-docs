@@ -5,7 +5,7 @@ id: sql-checkpoint
 description: "force a write-ahead log checkpoint"
 ---
 
-:::synopsis
+:::{.synopsis}
 CHECKPOINT
 :::
 

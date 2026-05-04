@@ -5,7 +5,7 @@ id: sql-createview
 description: "define a new view"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ OR REPLACE ] [ TEMP | TEMPORARY ] [ RECURSIVE ] VIEW name [ ( column_name [, ...] ) ]
  [ WITH ( view_option_name [= view_option_value] [, ... ] ) ]
  AS query

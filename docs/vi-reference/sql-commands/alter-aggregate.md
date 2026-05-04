@@ -5,7 +5,7 @@ id: sql-alteraggregate
 description: "change the definition of an aggregate function"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER AGGREGATE name ( aggregate_signature ) RENAME TO new_name
 ALTER AGGREGATE name ( aggregate_signature )
  OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }

@@ -5,7 +5,7 @@ id: sql-security-label
 description: "define or change a security label applied to an object"
 ---
 
-:::synopsis
+:::{.synopsis}
 SECURITY LABEL [ FOR provider ] ON
 {
  TABLE object_name |

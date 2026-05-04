@@ -5,7 +5,7 @@ id: sql-alterlargeobject
 description: "change the definition of a large object"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER LARGE OBJECT large_object_oid OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
 :::
 

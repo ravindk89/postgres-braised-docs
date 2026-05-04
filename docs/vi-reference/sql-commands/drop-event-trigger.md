@@ -5,7 +5,7 @@ id: sql-dropeventtrigger
 description: "remove an event trigger"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP EVENT TRIGGER [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

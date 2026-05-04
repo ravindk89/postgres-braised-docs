@@ -5,7 +5,7 @@ id: sql-createusermapping
 description: "define a new mapping of a user to a foreign server"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE USER MAPPING [ IF NOT EXISTS ] FOR { user_name | USER | CURRENT_ROLE | CURRENT_USER | PUBLIC }
  SERVER server_name
  [ OPTIONS ( option 'value' [ , ... ] ) ]

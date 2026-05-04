@@ -5,7 +5,7 @@ id: sql-alterdomain
 description: "change the definition of a domain"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER DOMAIN name
  { SET DEFAULT expression | DROP DEFAULT }
 ALTER DOMAIN name

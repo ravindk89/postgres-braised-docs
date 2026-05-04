@@ -5,7 +5,7 @@ id: sql-dropusermapping
 description: "remove a user mapping for a foreign server"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP USER MAPPING [ IF EXISTS ] FOR { user_name | USER | CURRENT_ROLE | CURRENT_USER | PUBLIC } SERVER server_name
 :::
 

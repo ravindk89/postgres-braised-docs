@@ -5,7 +5,7 @@ id: sql-dropview
 description: "remove a view"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP VIEW [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

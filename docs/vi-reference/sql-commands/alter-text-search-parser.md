@@ -5,7 +5,7 @@ id: sql-altertsparser
 description: "change the definition of a text search parser"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER TEXT SEARCH PARSER name RENAME TO new_name
 ALTER TEXT SEARCH PARSER name SET SCHEMA new_schema
 :::

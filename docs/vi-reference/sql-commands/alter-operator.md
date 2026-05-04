@@ -5,7 +5,7 @@ id: sql-alteroperator
 description: "change the definition of an operator"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER OPERATOR name ( { left_type | NONE } , right_type )
  OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
 

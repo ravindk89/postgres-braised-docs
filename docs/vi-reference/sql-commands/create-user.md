@@ -5,7 +5,7 @@ id: sql-createuser
 description: "define a new database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE USER name [ [ WITH ] option [ ... ] ]
 
 where option can be:

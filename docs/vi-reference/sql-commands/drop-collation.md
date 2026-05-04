@@ -5,7 +5,7 @@ id: sql-dropcollation
 description: "remove a collation"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP COLLATION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

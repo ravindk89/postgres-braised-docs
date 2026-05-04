@@ -5,7 +5,7 @@ id: sql-vacuum
 description: "garbage-collect and optionally analyze a database"
 ---
 
-:::synopsis
+:::{.synopsis}
 VACUUM [ ( option [, ...] ) ] [ table_and_columns [, ...] ]
 
 where option can be one of:

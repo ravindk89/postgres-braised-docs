@@ -5,7 +5,7 @@ id: sql-dropschema
 description: "remove a schema"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP SCHEMA [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

@@ -5,7 +5,7 @@ id: app-pgcombinebackup
 description: "reconstruct a full backup from an incremental backup and dependent backups"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_combinebackup
  option
  backup_directory

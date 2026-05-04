@@ -5,7 +5,7 @@ id: sql-show
 description: "show the value of a run-time parameter"
 ---
 
-:::synopsis
+:::{.synopsis}
 SHOW name
 SHOW ALL
 :::

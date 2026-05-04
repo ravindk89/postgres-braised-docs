@@ -5,7 +5,7 @@ id: sql-unlisten
 description: "stop listening for a notification"
 ---
 
-:::synopsis
+:::{.synopsis}
 UNLISTEN { channel | * }
 :::
 

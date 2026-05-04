@@ -5,7 +5,7 @@ id: sql-altertable
 description: "change the definition of a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER TABLE [ IF EXISTS ] [ ONLY ] name [ * ]
  action [, ... ]
 ALTER TABLE [ IF EXISTS ] [ ONLY ] name [ * ]

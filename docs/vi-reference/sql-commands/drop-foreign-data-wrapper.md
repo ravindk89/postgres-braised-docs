@@ -5,7 +5,7 @@ id: sql-dropforeigndatawrapper
 description: "remove a foreign-data wrapper"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP FOREIGN DATA WRAPPER [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

@@ -5,7 +5,7 @@ id: sql-createcast
 description: "define a new cast"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE CAST (source_type AS target_type)
  WITH FUNCTION function_name [ (argument_type [, ...]) ]
  [ AS ASSIGNMENT | AS IMPLICIT ]

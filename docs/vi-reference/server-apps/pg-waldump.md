@@ -5,7 +5,7 @@ id: pgwaldump
 description: "display a human-readable rendering of the write-ahead log of a PostgreSQL database cluster"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_waldump
  option
  startsegendseg

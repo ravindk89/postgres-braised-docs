@@ -5,7 +5,7 @@ id: sql-rollback
 description: "abort the current transaction"
 ---
 
-:::synopsis
+:::{.synopsis}
 ROLLBACK [ WORK | TRANSACTION ] [ AND [ NO ] CHAIN ]
 :::
 

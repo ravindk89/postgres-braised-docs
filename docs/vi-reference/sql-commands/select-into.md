@@ -5,7 +5,7 @@ id: sql-selectinto
 description: "define a new table from the results of a query"
 ---
 
-:::synopsis
+:::{.synopsis}
 [ WITH [ RECURSIVE ] with_query [, ...] ]
 SELECT [ ALL | DISTINCT [ ON ( expression [, ...] ) ] ]
  [ { * | expression [ [ AS ] output_name ] } [, ...] ]

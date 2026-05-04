@@ -5,7 +5,7 @@ id: sql-dropextension
 description: "remove an extension"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP EXTENSION [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

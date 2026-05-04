@@ -5,7 +5,7 @@ id: sql-alterserver
 description: "change the definition of a foreign server"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER SERVER name [ VERSION 'new_version' ]
  [ OPTIONS ( [ ADD | SET | DROP ] option ['value'] [, ... ] ) ]
 ALTER SERVER name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }

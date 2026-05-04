@@ -5,7 +5,7 @@ id: sql-select
 description: "retrieve rows from a table or view"
 ---
 
-:::synopsis
+:::{.synopsis}
 [ WITH [ RECURSIVE ] with_query [, ...] ]
 SELECT [ ALL | DISTINCT [ ON ( expression [, ...] ) ] ]
  [ { * | expression [ [ AS ] output_name ] } [, ...] ]

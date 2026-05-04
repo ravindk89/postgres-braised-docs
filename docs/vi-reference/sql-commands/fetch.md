@@ -5,7 +5,7 @@ id: sql-fetch
 description: "retrieve rows from a query using a cursor"
 ---
 
-:::synopsis
+:::{.synopsis}
 FETCH [ direction ] [ FROM | IN ] cursor_name
 
 where direction can be one of:

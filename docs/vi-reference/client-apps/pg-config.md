@@ -5,7 +5,7 @@ id: app-pgconfig
 description: "retrieve information about the installed version of PostgreSQL"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_config
  option
 :::

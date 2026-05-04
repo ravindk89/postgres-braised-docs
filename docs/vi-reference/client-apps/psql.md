@@ -5,7 +5,7 @@ id: app-psql
 description: "PostgreSQL interactive terminal"
 ---
 
-:::synopsis
+:::{.synopsis}
 psql
  option
  dbname

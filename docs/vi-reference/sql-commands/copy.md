@@ -5,7 +5,7 @@ id: sql-copy
 description: "copy data between a file and a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 COPY table_name [ ( column_name [, ...] ) ]
  FROM { 'filename' | PROGRAM 'command' | STDIN }
  [ [ WITH ] ( option [, ...] ) ]

@@ -5,7 +5,7 @@ id: sql-createpolicy
 description: "define a new row-level security policy for a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE POLICY name ON table_name
  [ AS { PERMISSIVE | RESTRICTIVE } ]
  [ FOR { ALL | SELECT | INSERT | UPDATE | DELETE } ]

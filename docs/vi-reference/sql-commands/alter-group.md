@@ -5,7 +5,7 @@ id: sql-altergroup
 description: "change role name or membership"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER GROUP role_specification ADD USER user_name [, ... ]
 ALTER GROUP role_specification DROP USER user_name [, ... ]
 

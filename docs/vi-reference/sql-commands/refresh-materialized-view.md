@@ -5,7 +5,7 @@ id: sql-refreshmaterializedview
 description: "replace the contents of a materialized view"
 ---
 
-:::synopsis
+:::{.synopsis}
 REFRESH MATERIALIZED VIEW [ CONCURRENTLY ] name
  [ WITH [ NO ] DATA ]
 :::

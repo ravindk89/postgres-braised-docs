@@ -5,7 +5,7 @@ id: sql-dropcast
 description: "remove a cast"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP CAST [ IF EXISTS ] (source_type AS target_type) [ CASCADE | RESTRICT ]
 :::
 

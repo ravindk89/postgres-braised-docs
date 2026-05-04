@@ -5,7 +5,7 @@ id: app-pgrewind
 description: "synchronize a PostgreSQL data directory with another data directory that was forked from it"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_rewind
  option
  

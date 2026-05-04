@@ -5,7 +5,7 @@ id: sql-droprule
 description: "remove a rewrite rule"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP RULE [ IF EXISTS ] name ON table_name [ CASCADE | RESTRICT ]
 :::
 

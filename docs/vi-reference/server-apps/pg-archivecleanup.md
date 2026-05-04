@@ -5,7 +5,7 @@ id: pgarchivecleanup
 description: "clean up PostgreSQL WAL archive files"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_archivecleanup
  option
  archivelocation

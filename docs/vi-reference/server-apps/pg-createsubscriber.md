@@ -5,7 +5,7 @@ id: app-pgcreatesubscriber
 description: "convert a physical replica into a new logical replica"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_createsubscriber
  option
  

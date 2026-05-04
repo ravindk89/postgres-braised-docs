@@ -5,7 +5,7 @@ id: app-pgrecvlogical
 description: "control PostgreSQL logical decoding streams"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_recvlogical
  option
 :::

@@ -5,7 +5,7 @@ id: sql-dropmaterializedview
 description: "remove a materialized view"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP MATERIALIZED VIEW [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

@@ -5,7 +5,7 @@ id: sql-createoperator
 description: "define a new operator"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE OPERATOR name (
  {FUNCTION|PROCEDURE} = function_name
  [, LEFTARG = left_type ] [, RIGHTARG = right_type ]

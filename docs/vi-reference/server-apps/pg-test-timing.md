@@ -5,7 +5,7 @@ id: pgtesttiming
 description: "measure timing overhead"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_test_timing
  option
 :::

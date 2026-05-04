@@ -5,7 +5,7 @@ id: pgupgrade
 description: "upgrade a PostgreSQL server instance"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_upgrade
  -b
  oldbindir

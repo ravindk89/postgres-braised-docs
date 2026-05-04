@@ -5,7 +5,7 @@ id: sql-createtsparser
 description: "define a new text search parser"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE TEXT SEARCH PARSER name (
  START = start_function ,
  GETTOKEN = gettoken_function ,

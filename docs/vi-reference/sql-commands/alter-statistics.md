@@ -5,7 +5,7 @@ id: sql-alterstatistics
 description: "change the definition of an extended statistics object"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER STATISTICS name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
 ALTER STATISTICS name RENAME TO new_name
 ALTER STATISTICS name SET SCHEMA new_schema

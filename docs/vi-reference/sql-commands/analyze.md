@@ -5,7 +5,7 @@ id: sql-analyze
 description: "collect statistics about a database"
 ---
 
-:::synopsis
+:::{.synopsis}
 ANALYZE [ ( option [, ...] ) ] [ table_and_columns [, ...] ]
 
 where option can be one of:

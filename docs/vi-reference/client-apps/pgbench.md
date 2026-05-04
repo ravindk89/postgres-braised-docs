@@ -5,7 +5,7 @@ id: pgbench
 description: "run a benchmark test on PostgreSQL"
 ---
 
-:::synopsis
+:::{.synopsis}
 pgbench
  -i
  option

@@ -5,7 +5,7 @@ id: sql-set
 description: "change a run-time parameter"
 ---
 
-:::synopsis
+:::{.synopsis}
 SET [ SESSION | LOCAL ] configuration_parameter { TO | = } { value | 'value' | DEFAULT }
 SET [ SESSION | LOCAL ] TIME ZONE { value | 'value' | LOCAL | DEFAULT }
 :::

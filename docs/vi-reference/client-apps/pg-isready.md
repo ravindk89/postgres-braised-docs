@@ -5,7 +5,7 @@ id: app-pg-isready
 description: "check the connection status of a PostgreSQL server"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_isready
  connection-option
  option

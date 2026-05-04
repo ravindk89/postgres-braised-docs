@@ -5,7 +5,7 @@ id: sql-rollback-prepared
 description: "cancel a transaction that was earlier prepared for two-phase commit"
 ---
 
-:::synopsis
+:::{.synopsis}
 ROLLBACK PREPARED transaction_id
 :::
 

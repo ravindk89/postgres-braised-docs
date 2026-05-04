@@ -5,7 +5,7 @@ id: sql-reset
 description: "restore the value of a run-time parameter to the default value"
 ---
 
-:::synopsis
+:::{.synopsis}
 RESET configuration_parameter
 RESET ALL
 :::

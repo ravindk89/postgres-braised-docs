@@ -5,7 +5,7 @@ id: app-pg-dumpall
 description: "extract a PostgreSQL database cluster into a script file"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_dumpall
  connection-option
  option

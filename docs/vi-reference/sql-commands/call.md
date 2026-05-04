@@ -5,7 +5,7 @@ id: sql-call
 description: "invoke a procedure"
 ---
 
-:::synopsis
+:::{.synopsis}
 CALL name ( [ argument ] [, ...] )
 :::
 

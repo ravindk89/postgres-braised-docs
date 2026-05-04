@@ -5,7 +5,7 @@ id: sql-droptype
 description: "remove a data type"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TYPE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

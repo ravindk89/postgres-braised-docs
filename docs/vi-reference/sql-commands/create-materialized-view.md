@@ -5,7 +5,7 @@ id: sql-creatematerializedview
 description: "define a new materialized view"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE MATERIALIZED VIEW [ IF NOT EXISTS ] table_name
  [ (column_name [, ...] ) ]
  [ USING method ]

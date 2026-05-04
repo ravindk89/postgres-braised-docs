@@ -5,7 +5,7 @@ id: sql-createdatabase
 description: "create a new database"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE DATABASE name
  [ WITH ] [ OWNER [=] user_name ]
  [ TEMPLATE [=] template ]

@@ -5,7 +5,7 @@ id: sql-dropforeigntable
 description: "remove a foreign table"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP FOREIGN TABLE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

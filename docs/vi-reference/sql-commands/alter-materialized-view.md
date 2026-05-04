@@ -5,7 +5,7 @@ id: sql-altermaterializedview
 description: "change the definition of a materialized view"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER MATERIALIZED VIEW [ IF EXISTS ] name
  action [, ... ]
 ALTER MATERIALIZED VIEW name

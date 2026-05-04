@@ -5,7 +5,7 @@ id: sql-grant
 description: "define access privileges"
 ---
 
-:::synopsis
+:::{.synopsis}
 GRANT { { SELECT | INSERT | UPDATE | DELETE | TRUNCATE | REFERENCES | TRIGGER | MAINTAIN }
  [, ...] | ALL [ PRIVILEGES ] }
  ON { [ TABLE ] table_name [, ...]

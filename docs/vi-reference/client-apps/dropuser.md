@@ -5,7 +5,7 @@ id: app-dropuser
 description: "remove a PostgreSQL user account"
 ---
 
-:::synopsis
+:::{.synopsis}
 dropuser
  connection-option
  option

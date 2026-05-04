@@ -5,7 +5,7 @@ id: sql-droprole
 description: "remove a database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP ROLE [ IF EXISTS ] name [, ...]
 :::
 

@@ -5,7 +5,7 @@ id: sql-createtsdictionary
 description: "define a new text search dictionary"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE TEXT SEARCH DICTIONARY name (
  TEMPLATE = template
  [, option = value [, ... ]]

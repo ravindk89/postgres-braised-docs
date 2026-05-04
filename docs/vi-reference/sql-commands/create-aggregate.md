@@ -5,7 +5,7 @@ id: sql-createaggregate
 description: "define a new aggregate function"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ OR REPLACE ] AGGREGATE name ( [ argmode ] [ argname ] arg_data_type [ , ... ] ) (
  SFUNC = sfunc,
  STYPE = state_data_type

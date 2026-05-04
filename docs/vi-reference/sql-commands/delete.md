@@ -5,7 +5,7 @@ id: sql-delete
 description: "delete rows of a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 [ WITH [ RECURSIVE ] with_query [, ...] ]
 DELETE FROM [ ONLY ] table_name [ * ] [ [ AS ] alias ]
  [ USING from_item [, ...] ]

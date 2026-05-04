@@ -5,7 +5,7 @@ id: app-pgbasebackup
 description: "take a base backup of a PostgreSQL cluster"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_basebackup
  option
 :::

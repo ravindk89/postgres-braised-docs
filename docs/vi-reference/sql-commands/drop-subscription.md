@@ -5,7 +5,7 @@ id: sql-dropsubscription
 description: "remove a subscription"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP SUBSCRIPTION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

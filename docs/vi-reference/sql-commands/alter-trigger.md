@@ -5,7 +5,7 @@ id: sql-altertrigger
 description: "change the definition of a trigger"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER TRIGGER name ON table_name RENAME TO new_name
 ALTER TRIGGER name ON table_name [ NO ] DEPENDS ON EXTENSION extension_name
 :::

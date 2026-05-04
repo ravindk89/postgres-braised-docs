@@ -5,7 +5,7 @@ id: sql-createlanguage
 description: "define a new procedural language"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ OR REPLACE ] [ TRUSTED ] [ PROCEDURAL ] LANGUAGE name
  HANDLER call_handler [ INLINE inline_handler ] [ VALIDATOR valfunction ]
 CREATE [ OR REPLACE ] [ TRUSTED ] [ PROCEDURAL ] LANGUAGE name

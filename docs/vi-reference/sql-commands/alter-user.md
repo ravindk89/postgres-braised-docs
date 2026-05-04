@@ -5,7 +5,7 @@ id: sql-alteruser
 description: "change a database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER USER role_specification [ WITH ] option [ ... ]
 
 where option can be:

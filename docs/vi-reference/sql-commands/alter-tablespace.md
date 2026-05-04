@@ -5,7 +5,7 @@ id: sql-altertablespace
 description: "change the definition of a tablespace"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER TABLESPACE name RENAME TO new_name
 ALTER TABLESPACE name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
 ALTER TABLESPACE name SET ( tablespace_option = value [, ... ] )

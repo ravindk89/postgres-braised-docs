@@ -5,7 +5,7 @@ id: sql-alterprocedure
 description: "change the definition of a procedure"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER PROCEDURE name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ]
  action [ ... ] [ RESTRICT ]
 ALTER PROCEDURE name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ]

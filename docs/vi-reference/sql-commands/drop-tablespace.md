@@ -5,7 +5,7 @@ id: sql-droptablespace
 description: "remove a tablespace"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TABLESPACE [ IF EXISTS ] name
 :::
 

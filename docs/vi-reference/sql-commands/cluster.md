@@ -5,7 +5,7 @@ id: sql-cluster
 description: "cluster a table according to an index"
 ---
 
-:::synopsis
+:::{.synopsis}
 CLUSTER [ ( option [, ...] ) ] [ table_name [ USING index_name ] ]
 
 where option can be one of:

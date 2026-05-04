@@ -5,7 +5,7 @@ id: sql-createtablespace
 description: "define a new tablespace"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE TABLESPACE tablespace_name
  [ OWNER { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER } ]
  LOCATION 'directory'

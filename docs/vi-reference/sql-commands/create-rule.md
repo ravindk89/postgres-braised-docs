@@ -5,7 +5,7 @@ id: sql-createrule
 description: "define a new rewrite rule"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ OR REPLACE ] RULE name AS ON event
  TO table_name [ WHERE condition ]
  DO [ ALSO | INSTEAD ] { NOTHING | command | ( command ; command ... ) }

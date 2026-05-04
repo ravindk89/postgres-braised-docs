@@ -5,7 +5,7 @@ id: sql-truncate
 description: "empty a table or set of tables"
 ---
 
-:::synopsis
+:::{.synopsis}
 TRUNCATE [ TABLE ] [ ONLY ] name [ * ] [, ... ]
  [ RESTART IDENTITY | CONTINUE IDENTITY ] [ CASCADE | RESTRICT ]
 :::

@@ -5,7 +5,7 @@ id: sql-alteropfamily
 description: "change the definition of an operator family"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER OPERATOR FAMILY name USING index_method ADD
  { OPERATOR strategy_number operator_name ( op_type, op_type )
  [ FOR SEARCH | FOR ORDER BY sort_family_name ]

@@ -5,7 +5,7 @@ id: sql-altertsconfig
 description: "change the definition of a text search configuration"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER TEXT SEARCH CONFIGURATION name
  ADD MAPPING FOR token_type [, ... ] WITH dictionary_name [, ... ]
 ALTER TEXT SEARCH CONFIGURATION name

@@ -5,7 +5,7 @@ id: sql-declare
 description: "define a cursor"
 ---
 
-:::synopsis
+:::{.synopsis}
 DECLARE name [ BINARY ] [ ASENSITIVE | INSENSITIVE ] [ [ NO ] SCROLL ]
  CURSOR [ { WITH | WITHOUT } HOLD ] FOR query
 :::

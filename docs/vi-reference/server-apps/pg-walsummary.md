@@ -5,7 +5,7 @@ id: app-pgwalsummary
 description: "print contents of WAL summary files"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_walsummary
  option
  file

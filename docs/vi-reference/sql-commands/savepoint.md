@@ -5,7 +5,7 @@ id: sql-savepoint
 description: "define a new savepoint within the current transaction"
 ---
 
-:::synopsis
+:::{.synopsis}
 SAVEPOINT savepoint_name
 :::
 

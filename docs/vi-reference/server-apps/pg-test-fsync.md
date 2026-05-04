@@ -5,7 +5,7 @@ id: pgtestfsync
 description: "determine fastest wal_sync_method for PostgreSQL"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_test_fsync
  option
 :::

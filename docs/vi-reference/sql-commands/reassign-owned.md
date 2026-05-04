@@ -5,7 +5,7 @@ id: sql-reassign-owned
 description: "change the ownership of database objects owned by a database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 REASSIGN OWNED BY { old_role | CURRENT_ROLE | CURRENT_USER | SESSION_USER } [, ...]
  TO { new_role | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
 :::

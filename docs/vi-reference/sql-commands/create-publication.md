@@ -5,7 +5,7 @@ id: sql-createpublication
 description: "define a new publication"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE PUBLICATION name
  [ FOR ALL TABLES
  | FOR publication_object [, ... ] ]

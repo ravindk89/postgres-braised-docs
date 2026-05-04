@@ -5,7 +5,7 @@ id: sql-altercollation
 description: "change the definition of a collation"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER COLLATION name REFRESH VERSION
 
 ALTER COLLATION name RENAME TO new_name

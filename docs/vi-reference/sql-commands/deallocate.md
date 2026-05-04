@@ -5,7 +5,7 @@ id: sql-deallocate
 description: "deallocate a prepared statement"
 ---
 
-:::synopsis
+:::{.synopsis}
 DEALLOCATE [ PREPARE ] { name | ALL }
 :::
 

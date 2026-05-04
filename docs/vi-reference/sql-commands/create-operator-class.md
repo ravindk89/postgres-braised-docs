@@ -5,7 +5,7 @@ id: sql-createopclass
 description: "define a new operator class"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE OPERATOR CLASS name [ DEFAULT ] FOR TYPE data_type
  USING index_method [ FAMILY family_name ] AS
  { OPERATOR strategy_number operator_name [ ( op_type, op_type ) ] [ FOR SEARCH | FOR ORDER BY sort_family_name ]

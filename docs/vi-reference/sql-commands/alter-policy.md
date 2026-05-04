@@ -5,7 +5,7 @@ id: sql-alterpolicy
 description: "change the definition of a row-level security policy"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER POLICY name ON table_name RENAME TO new_name
 
 ALTER POLICY name ON table_name

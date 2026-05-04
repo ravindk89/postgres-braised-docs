@@ -5,7 +5,7 @@ id: sql-alterroutine
 description: "change the definition of a routine"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER ROUTINE name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ]
  action [ ... ] [ RESTRICT ]
 ALTER ROUTINE name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ]

@@ -5,7 +5,7 @@ id: sql-revoke
 description: "remove access privileges"
 ---
 
-:::synopsis
+:::{.synopsis}
 REVOKE [ GRANT OPTION FOR ]
  { { SELECT | INSERT | UPDATE | DELETE | TRUNCATE | REFERENCES | TRIGGER | MAINTAIN }
  [, ...] | ALL [ PRIVILEGES ] }

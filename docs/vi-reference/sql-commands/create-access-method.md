@@ -5,7 +5,7 @@ id: sql-create-access-method
 description: "define a new access method"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE ACCESS METHOD name
  TYPE access_method_type
  HANDLER handler_function

@@ -5,7 +5,7 @@ id: sql-values
 description: "compute a set of rows"
 ---
 
-:::synopsis
+:::{.synopsis}
 VALUES ( expression [, ...] ) [, ...]
  [ ORDER BY sort_expression [ ASC | DESC | USING operator ] [, ...] ]
  [ LIMIT { count | ALL } ]

@@ -5,7 +5,7 @@ id: sql-droptsconfig
 description: "remove a text search configuration"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TEXT SEARCH CONFIGURATION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

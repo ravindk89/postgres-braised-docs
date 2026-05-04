@@ -5,7 +5,7 @@ id: app-pgcontroldata
 description: "display control information of a PostgreSQL database cluster"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_controldata
  option
  

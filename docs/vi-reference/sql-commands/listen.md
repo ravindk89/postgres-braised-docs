@@ -5,7 +5,7 @@ id: sql-listen
 description: "listen for a notification"
 ---
 
-:::synopsis
+:::{.synopsis}
 LISTEN channel
 :::
 

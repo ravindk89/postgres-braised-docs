@@ -5,7 +5,7 @@ id: sql-createindex
 description: "define a new index"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ UNIQUE ] INDEX [ CONCURRENTLY ] [ [ IF NOT EXISTS ] name ] ON [ ONLY ] table_name [ USING method ]
  ( { column_name | ( expression ) } [ COLLATE collation ] [ opclass [ ( opclass_parameter = value [, ... ] ) ] ] [ ASC | DESC ] [ NULLS { FIRST | LAST } ] [, ...] )
  [ INCLUDE ( column_name [, ...] ) ]

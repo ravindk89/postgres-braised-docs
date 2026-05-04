@@ -5,7 +5,7 @@ id: app-pgresetwal
 description: "reset the write-ahead log and other control information of a PostgreSQL database cluster"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_resetwal
  
  -f

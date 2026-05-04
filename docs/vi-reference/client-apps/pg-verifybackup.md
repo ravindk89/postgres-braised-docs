@@ -6,7 +6,7 @@ description: "verify the integrity of a base backup of a
   PostgreSQL cluster"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_verifybackup
  option
 :::

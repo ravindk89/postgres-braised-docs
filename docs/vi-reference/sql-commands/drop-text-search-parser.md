@@ -5,7 +5,7 @@ id: sql-droptsparser
 description: "remove a text search parser"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TEXT SEARCH PARSER [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

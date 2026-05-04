@@ -5,7 +5,7 @@ id: sql-creategroup
 description: "define a new database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE GROUP name [ [ WITH ] option [ ... ] ]
 
 where option can be:

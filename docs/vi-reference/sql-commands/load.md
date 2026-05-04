@@ -5,7 +5,7 @@ id: sql-load
 description: "load a shared library file"
 ---
 
-:::synopsis
+:::{.synopsis}
 LOAD 'filename'
 :::
 

@@ -5,7 +5,7 @@ id: sql-altersequence
 description: "change the definition of a sequence generator"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER SEQUENCE [ IF EXISTS ] name
  [ AS data_type ]
  [ INCREMENT [ BY ] increment ]

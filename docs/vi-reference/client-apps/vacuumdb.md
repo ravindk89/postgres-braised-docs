@@ -5,7 +5,7 @@ id: app-vacuumdb
 description: "garbage-collect and analyze a PostgreSQL database"
 ---
 
-:::synopsis
+:::{.synopsis}
 vacuumdb
  connection-option
  option

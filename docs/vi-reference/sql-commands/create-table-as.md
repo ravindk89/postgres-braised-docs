@@ -5,7 +5,7 @@ id: sql-createtableas
 description: "define a new table from the results of a query"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ [ GLOBAL | LOCAL ] { TEMPORARY | TEMP } | UNLOGGED ] TABLE [ IF NOT EXISTS ] table_name
  [ (column_name [, ...] ) ]
  [ USING method ]

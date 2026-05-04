@@ -5,7 +5,7 @@ id: sql-dropconversion
 description: "remove a conversion"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP CONVERSION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

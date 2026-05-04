@@ -5,7 +5,7 @@ id: sql-release-savepoint
 description: "release a previously defined savepoint"
 ---
 
-:::synopsis
+:::{.synopsis}
 RELEASE [ SAVEPOINT ] savepoint_name
 :::
 

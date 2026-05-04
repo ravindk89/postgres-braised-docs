@@ -5,7 +5,7 @@ id: sql-altersubscription
 description: "change the definition of a subscription"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER SUBSCRIPTION name CONNECTION 'conninfo'
 ALTER SUBSCRIPTION name SET PUBLICATION publication_name [, ...] [ WITH ( publication_option [= value] [, ... ] ) ]
 ALTER SUBSCRIPTION name ADD PUBLICATION publication_name [, ...] [ WITH ( publication_option [= value] [, ... ] ) ]

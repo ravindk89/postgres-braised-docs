@@ -5,7 +5,7 @@ id: sql-createtrigger
 description: "define a new trigger"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ OR REPLACE ] [ CONSTRAINT ] TRIGGER name { BEFORE | AFTER | INSTEAD OF } { event [ OR ... ] }
  ON table_name
  [ FROM referenced_table_name ]

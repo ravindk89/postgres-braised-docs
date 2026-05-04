@@ -5,7 +5,7 @@ id: sql-dropoperator
 description: "remove an operator"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP OPERATOR [ IF EXISTS ] name ( { left_type | NONE } , right_type ) [, ...] [ CASCADE | RESTRICT ]
 :::
 

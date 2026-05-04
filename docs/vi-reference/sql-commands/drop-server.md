@@ -5,7 +5,7 @@ id: sql-dropserver
 description: "remove a foreign server descriptor"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP SERVER [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

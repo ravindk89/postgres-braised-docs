@@ -5,7 +5,7 @@ id: sql-alterextension
 description: "change the definition of an extension"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER EXTENSION name UPDATE [ TO new_version ]
 ALTER EXTENSION name SET SCHEMA new_schema
 ALTER EXTENSION name ADD member_object

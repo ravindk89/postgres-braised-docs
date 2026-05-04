@@ -5,7 +5,7 @@ id: sql-comment
 description: "define or change the comment of an object"
 ---
 
-:::synopsis
+:::{.synopsis}
 COMMENT ON
 {
  ACCESS METHOD object_name |

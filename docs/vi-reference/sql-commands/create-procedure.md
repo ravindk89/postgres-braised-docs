@@ -5,7 +5,7 @@ id: sql-createprocedure
 description: "define a new procedure"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ OR REPLACE ] PROCEDURE
  name ( [ [ argmode ] [ argname ] argtype [ { DEFAULT | = } default_expr ] [, ...] ] )
  { LANGUAGE lang_name

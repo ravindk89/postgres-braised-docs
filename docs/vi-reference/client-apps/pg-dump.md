@@ -5,7 +5,7 @@ id: app-pgdump
 description: "export a PostgreSQL database as an SQL script or to other formats"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_dump
  connection-option
  option

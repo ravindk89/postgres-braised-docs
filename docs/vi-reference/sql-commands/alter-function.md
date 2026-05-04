@@ -5,7 +5,7 @@ id: sql-alterfunction
 description: "change the definition of a function"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER FUNCTION name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ]
  action [ ... ] [ RESTRICT ]
 ALTER FUNCTION name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ]

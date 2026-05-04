@@ -5,7 +5,7 @@ id: sql-altertype
 description: "change the definition of a type"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER TYPE name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
 ALTER TYPE name RENAME TO new_name
 ALTER TYPE name SET SCHEMA new_schema

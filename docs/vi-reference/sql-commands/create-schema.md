@@ -5,7 +5,7 @@ id: sql-createschema
 description: "define a new schema"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE SCHEMA schema_name [ AUTHORIZATION role_specification ] [ schema_element [ ... ] ]
 CREATE SCHEMA AUTHORIZATION role_specification [ schema_element [ ... ] ]
 CREATE SCHEMA IF NOT EXISTS schema_name [ AUTHORIZATION role_specification ]

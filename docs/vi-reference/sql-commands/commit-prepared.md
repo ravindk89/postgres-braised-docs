@@ -5,7 +5,7 @@ id: sql-commit-prepared
 description: "commit a transaction that was earlier prepared for two-phase commit"
 ---
 
-:::synopsis
+:::{.synopsis}
 COMMIT PREPARED transaction_id
 :::
 

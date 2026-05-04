@@ -5,7 +5,7 @@ id: sql-alteropclass
 description: "change the definition of an operator class"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER OPERATOR CLASS name USING index_method
  RENAME TO new_name
 

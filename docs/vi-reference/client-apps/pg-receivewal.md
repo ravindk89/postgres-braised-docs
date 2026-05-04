@@ -5,7 +5,7 @@ id: app-pgreceivewal
 description: "stream write-ahead logs from a PostgreSQL server"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_receivewal
  option
 :::

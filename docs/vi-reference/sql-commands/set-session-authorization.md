@@ -5,7 +5,7 @@ id: sql-set-session-authorization
 description: "set the session user identifier and the current user identifier of the current session"
 ---
 
-:::synopsis
+:::{.synopsis}
 SET [ SESSION | LOCAL ] SESSION AUTHORIZATION user_name
 SET [ SESSION | LOCAL ] SESSION AUTHORIZATION DEFAULT
 RESET SESSION AUTHORIZATION

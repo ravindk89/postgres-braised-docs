@@ -5,7 +5,7 @@ id: sql-set-role
 description: "set the current user identifier of the current session"
 ---
 
-:::synopsis
+:::{.synopsis}
 SET [ SESSION | LOCAL ] ROLE role_name
 SET [ SESSION | LOCAL ] ROLE NONE
 RESET ROLE

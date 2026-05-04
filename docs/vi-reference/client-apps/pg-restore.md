@@ -6,7 +6,7 @@ description: "restore a PostgreSQL database from an
    archive file created by pg_dump"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_restore
  connection-option
  option

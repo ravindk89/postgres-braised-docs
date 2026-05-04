@@ -5,7 +5,7 @@ id: sql-createextension
 description: "install an extension"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE EXTENSION [ IF NOT EXISTS ] extension_name
  [ WITH ] [ SCHEMA schema_name ]
  [ VERSION version ]

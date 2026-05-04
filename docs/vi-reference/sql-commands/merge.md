@@ -5,7 +5,7 @@ id: sql-merge
 description: "conditionally insert, update, or delete rows of a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 [ WITH with_query [, ...] ]
 MERGE INTO [ ONLY ] target_table_name [ * ] [ [ AS ] target_alias ]
  USING data_source ON join_condition

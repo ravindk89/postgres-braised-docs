@@ -5,7 +5,7 @@ id: sql-droptrigger
 description: "remove a trigger"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TRIGGER [ IF EXISTS ] name ON table_name [ CASCADE | RESTRICT ]
 :::
 

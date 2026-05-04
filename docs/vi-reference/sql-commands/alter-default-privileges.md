@@ -5,7 +5,7 @@ id: sql-alterdefaultprivileges
 description: "define default access privileges"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER DEFAULT PRIVILEGES
  [ FOR { ROLE | USER } target_role [, ...] ]
  [ IN SCHEMA schema_name [, ...] ]

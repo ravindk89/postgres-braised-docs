@@ -5,7 +5,7 @@ id: sql-createtransform
 description: "define a new transform"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ OR REPLACE ] TRANSFORM FOR type_name LANGUAGE lang_name (
  FROM SQL WITH FUNCTION from_sql_function_name [ (argument_type [, ...]) ],
  TO SQL WITH FUNCTION to_sql_function_name [ (argument_type [, ...]) ]

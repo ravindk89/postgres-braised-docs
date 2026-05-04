@@ -5,7 +5,7 @@ id: sql-alterpublication
 description: "change the definition of a publication"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER PUBLICATION name ADD publication_object [, ...]
 ALTER PUBLICATION name SET publication_object [, ...]
 ALTER PUBLICATION name DROP publication_drop_object [, ...]

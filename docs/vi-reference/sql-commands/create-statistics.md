@@ -5,7 +5,7 @@ id: sql-createstatistics
 description: "define extended statistics"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE STATISTICS [ [ IF NOT EXISTS ] statistics_name ]
  ON ( expression )
  FROM table_name

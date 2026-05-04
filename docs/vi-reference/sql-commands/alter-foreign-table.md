@@ -5,7 +5,7 @@ id: sql-alterforeigntable
 description: "change the definition of a foreign table"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER FOREIGN TABLE [ IF EXISTS ] [ ONLY ] name [ * ]
  action [, ... ]
 ALTER FOREIGN TABLE [ IF EXISTS ] [ ONLY ] name [ * ]

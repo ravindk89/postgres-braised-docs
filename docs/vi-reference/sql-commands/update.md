@@ -5,7 +5,7 @@ id: sql-update
 description: "update rows of a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 [ WITH [ RECURSIVE ] with_query [, ...] ]
 UPDATE [ ONLY ] table_name [ * ] [ [ AS ] alias ]
  SET { column_name = { expression | DEFAULT } |

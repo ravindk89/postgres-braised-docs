@@ -5,7 +5,7 @@ id: sql-createforeigndatawrapper
 description: "define a new foreign-data wrapper"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE FOREIGN DATA WRAPPER name
  [ HANDLER handler_function | NO HANDLER ]
  [ VALIDATOR validator_function | NO VALIDATOR ]

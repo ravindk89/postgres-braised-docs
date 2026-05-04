@@ -5,7 +5,7 @@ id: sql-prepare
 description: "prepare a statement for execution"
 ---
 
-:::synopsis
+:::{.synopsis}
 PREPARE name [ ( data_type [, ...] ) ] AS statement
 :::
 

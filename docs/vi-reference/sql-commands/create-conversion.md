@@ -5,7 +5,7 @@ id: sql-createconversion
 description: "define a new encoding conversion"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ DEFAULT ] CONVERSION name
  FOR source_encoding TO dest_encoding FROM function_name
 :::

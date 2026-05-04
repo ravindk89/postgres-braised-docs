@@ -5,7 +5,7 @@ id: sql-dropsequence
 description: "remove a sequence"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP SEQUENCE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

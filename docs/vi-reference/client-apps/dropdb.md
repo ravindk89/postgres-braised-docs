@@ -5,7 +5,7 @@ id: app-dropdb
 description: "remove a PostgreSQL database"
 ---
 
-:::synopsis
+:::{.synopsis}
 dropdb
  connection-option
  option

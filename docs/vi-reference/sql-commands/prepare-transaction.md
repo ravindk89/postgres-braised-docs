@@ -5,7 +5,7 @@ id: sql-prepare-transaction
 description: "prepare the current transaction for two-phase commit"
 ---
 
-:::synopsis
+:::{.synopsis}
 PREPARE TRANSACTION transaction_id
 :::
 

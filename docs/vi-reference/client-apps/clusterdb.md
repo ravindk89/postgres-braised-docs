@@ -5,7 +5,7 @@ id: app-clusterdb
 description: "cluster a PostgreSQL database"
 ---
 
-:::synopsis
+:::{.synopsis}
 clusterdb
  connection-option
  option

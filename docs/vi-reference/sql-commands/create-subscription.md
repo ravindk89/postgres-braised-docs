@@ -5,7 +5,7 @@ id: sql-createsubscription
 description: "define a new subscription"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE SUBSCRIPTION subscription_name
  CONNECTION 'conninfo'
  PUBLICATION publication_name [, ...]

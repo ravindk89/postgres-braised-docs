@@ -5,7 +5,7 @@ id: sql-alterforeigndatawrapper
 description: "change the definition of a foreign-data wrapper"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER FOREIGN DATA WRAPPER name
  [ HANDLER handler_function | NO HANDLER ]
  [ VALIDATOR validator_function | NO VALIDATOR ]

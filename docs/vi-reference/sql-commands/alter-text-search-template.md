@@ -5,7 +5,7 @@ id: sql-altertstemplate
 description: "change the definition of a text search template"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER TEXT SEARCH TEMPLATE name RENAME TO new_name
 ALTER TEXT SEARCH TEMPLATE name SET SCHEMA new_schema
 :::

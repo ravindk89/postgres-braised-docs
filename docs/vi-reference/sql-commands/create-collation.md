@@ -5,7 +5,7 @@ id: sql-createcollation
 description: "define a new collation"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE COLLATION [ IF NOT EXISTS ] name (
  [ LOCALE = locale, ]
  [ LC_COLLATE = lc_collate, ]

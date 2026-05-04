@@ -5,7 +5,7 @@ id: sql-discard
 description: "discard session state"
 ---
 
-:::synopsis
+:::{.synopsis}
 DISCARD { ALL | PLANS | SEQUENCES | TEMPORARY | TEMP }
 :::
 

@@ -5,7 +5,7 @@ id: sql-createopfamily
 description: "define a new operator family"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE OPERATOR FAMILY name USING index_method
 :::
 

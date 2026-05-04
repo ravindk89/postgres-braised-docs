@@ -5,7 +5,7 @@ id: sql-altersystem
 description: "change a server configuration parameter"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER SYSTEM SET configuration_parameter { TO | = } { value [, ...] | DEFAULT }
 
 ALTER SYSTEM RESET configuration_parameter

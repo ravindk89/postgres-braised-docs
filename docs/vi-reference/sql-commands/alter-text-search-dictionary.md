@@ -5,7 +5,7 @@ id: sql-altertsdictionary
 description: "change the definition of a text search dictionary"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER TEXT SEARCH DICTIONARY name (
  option [ = value ] [, ... ]
 )

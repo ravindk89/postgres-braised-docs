@@ -5,7 +5,7 @@ id: sql-dropdatabase
 description: "remove a database"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP DATABASE [ IF EXISTS ] name [ [ WITH ] ( option [, ...] ) ]
 
 where option can be:

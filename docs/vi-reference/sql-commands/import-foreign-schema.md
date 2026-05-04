@@ -5,7 +5,7 @@ id: sql-importforeignschema
 description: "import table definitions from a foreign server"
 ---
 
-:::synopsis
+:::{.synopsis}
 IMPORT FOREIGN SCHEMA remote_schema
  [ { LIMIT TO | EXCEPT } ( table_name [, ...] ) ]
  FROM SERVER server_name

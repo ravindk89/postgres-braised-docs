@@ -5,7 +5,7 @@ id: sql-dropopclass
 description: "remove an operator class"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP OPERATOR CLASS [ IF EXISTS ] name USING index_method [ CASCADE | RESTRICT ]
 :::
 

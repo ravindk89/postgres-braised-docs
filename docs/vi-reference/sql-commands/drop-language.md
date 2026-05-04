@@ -5,7 +5,7 @@ id: sql-droplanguage
 description: "remove a procedural language"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP [ PROCEDURAL ] LANGUAGE [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

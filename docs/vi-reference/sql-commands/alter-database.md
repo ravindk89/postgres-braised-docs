@@ -5,7 +5,7 @@ id: sql-alterdatabase
 description: "change a database"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER DATABASE name [ [ WITH ] option [ ... ] ]
 
 where option can be:

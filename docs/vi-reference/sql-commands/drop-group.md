@@ -5,7 +5,7 @@ id: sql-dropgroup
 description: "remove a database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP GROUP [ IF EXISTS ] name [, ...]
 :::
 

@@ -5,7 +5,7 @@ id: sql-droppolicy
 description: "remove a row-level security policy from a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP POLICY [ IF EXISTS ] name ON table_name [ CASCADE | RESTRICT ]
 :::
 

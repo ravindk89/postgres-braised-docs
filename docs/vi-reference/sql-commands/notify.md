@@ -5,7 +5,7 @@ id: sql-notify
 description: "generate a notification"
 ---
 
-:::synopsis
+:::{.synopsis}
 NOTIFY channel [ , payload ]
 :::
 

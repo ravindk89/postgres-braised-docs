@@ -5,7 +5,7 @@ id: sql-alterusermapping
 description: "change the definition of a user mapping"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER USER MAPPING FOR { user_name | USER | CURRENT_ROLE | CURRENT_USER | SESSION_USER | PUBLIC }
  SERVER server_name
  OPTIONS ( [ ADD | SET | DROP ] option ['value'] [, ... ] )

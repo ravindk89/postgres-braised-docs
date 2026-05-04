@@ -5,7 +5,7 @@ id: sql-begin
 description: "start a transaction block"
 ---
 
-:::synopsis
+:::{.synopsis}
 BEGIN [ WORK | TRANSACTION ] [ transaction_mode [, ...] ]
 
 where transaction_mode is one of:

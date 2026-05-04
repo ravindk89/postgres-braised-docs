@@ -6,7 +6,7 @@ description: "checks for corruption in one or more
   PostgreSQL databases"
 ---
 
-:::synopsis
+:::{.synopsis}
 pg_amcheck
  option
  dbname

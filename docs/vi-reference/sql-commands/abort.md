@@ -5,7 +5,7 @@ id: sql-abort
 description: "abort the current transaction"
 ---
 
-:::synopsis
+:::{.synopsis}
 ABORT [ WORK | TRANSACTION ] [ AND [ NO ] CHAIN ]
 :::
 

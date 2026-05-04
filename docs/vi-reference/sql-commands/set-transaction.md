@@ -5,7 +5,7 @@ id: sql-set-transaction
 description: "set the characteristics of the current transaction"
 ---
 
-:::synopsis
+:::{.synopsis}
 SET TRANSACTION transaction_mode [, ...]
 SET TRANSACTION SNAPSHOT snapshot_id
 SET SESSION CHARACTERISTICS AS TRANSACTION transaction_mode [, ...]

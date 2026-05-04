@@ -5,7 +5,7 @@ id: sql-dropuser
 description: "remove a database role"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP USER [ IF EXISTS ] name [, ...]
 :::
 

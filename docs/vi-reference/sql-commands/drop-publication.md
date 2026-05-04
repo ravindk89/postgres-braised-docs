@@ -5,7 +5,7 @@ id: sql-droppublication
 description: "remove a publication"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP PUBLICATION [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

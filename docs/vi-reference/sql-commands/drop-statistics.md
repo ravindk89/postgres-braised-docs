@@ -5,7 +5,7 @@ id: sql-dropstatistics
 description: "remove extended statistics"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP STATISTICS [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

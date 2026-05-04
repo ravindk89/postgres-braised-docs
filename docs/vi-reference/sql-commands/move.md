@@ -5,7 +5,7 @@ id: sql-move
 description: "position a cursor"
 ---
 
-:::synopsis
+:::{.synopsis}
 MOVE [ direction ] [ FROM | IN ] cursor_name
 
 where direction can be one of:

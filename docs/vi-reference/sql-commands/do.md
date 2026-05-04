@@ -5,7 +5,7 @@ id: sql-do
 description: "execute an anonymous code block"
 ---
 
-:::synopsis
+:::{.synopsis}
 DO [ LANGUAGE lang_name ] code
 :::
 

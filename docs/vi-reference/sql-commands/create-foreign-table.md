@@ -5,7 +5,7 @@ id: sql-createforeigntable
 description: "define a new foreign table"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE FOREIGN TABLE [ IF NOT EXISTS ] table_name ( [
  { column_name data_type [ OPTIONS ( option 'value' [, ... ] ) ] [ COLLATE collation ] [ column_constraint [ ... ] ]
  | table_constraint

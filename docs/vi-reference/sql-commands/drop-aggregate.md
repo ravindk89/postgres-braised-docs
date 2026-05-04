@@ -5,7 +5,7 @@ id: sql-dropaggregate
 description: "remove an aggregate function"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP AGGREGATE [ IF EXISTS ] name ( aggregate_signature ) [, ...] [ CASCADE | RESTRICT ]
 
 where aggregate_signature is:

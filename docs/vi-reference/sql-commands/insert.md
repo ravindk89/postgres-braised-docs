@@ -5,7 +5,7 @@ id: sql-insert
 description: "create new rows in a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 [ WITH [ RECURSIVE ] with_query [, ...] ]
 INSERT INTO table_name [ AS alias ] [ ( column_name [, ...] ) ]
  [ OVERRIDING { SYSTEM | USER } VALUE ]

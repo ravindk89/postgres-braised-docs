@@ -5,7 +5,7 @@ id: sql-lock
 description: "lock a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 LOCK [ TABLE ] [ ONLY ] name [ * ] [, ...] [ IN lockmode MODE ] [ NOWAIT ]
 
 where lockmode is one of:

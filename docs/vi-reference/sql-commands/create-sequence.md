@@ -5,7 +5,7 @@ id: sql-createsequence
 description: "define a new sequence generator"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ { TEMPORARY | TEMP } | UNLOGGED ] SEQUENCE [ IF NOT EXISTS ] name
  [ AS data_type ]
  [ INCREMENT [ BY ] increment ]

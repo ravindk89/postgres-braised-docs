@@ -5,7 +5,7 @@ id: sql-droptable
 description: "remove a table"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TABLE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

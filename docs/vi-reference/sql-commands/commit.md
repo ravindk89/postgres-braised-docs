@@ -5,7 +5,7 @@ id: sql-commit
 description: "commit the current transaction"
 ---
 
-:::synopsis
+:::{.synopsis}
 COMMIT [ WORK | TRANSACTION ] [ AND [ NO ] CHAIN ]
 :::
 

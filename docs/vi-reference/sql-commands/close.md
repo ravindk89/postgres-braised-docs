@@ -5,7 +5,7 @@ id: sql-close
 description: "close a cursor"
 ---
 
-:::synopsis
+:::{.synopsis}
 CLOSE { name | ALL }
 :::
 

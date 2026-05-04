@@ -5,7 +5,7 @@ id: app-initdb
 description: "create a new PostgreSQL database cluster"
 ---
 
-:::synopsis
+:::{.synopsis}
 initdb
  option
  

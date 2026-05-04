@@ -5,7 +5,7 @@ id: sql-dropindex
 description: "remove an index"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP INDEX [ CONCURRENTLY ] [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

@@ -5,7 +5,7 @@ id: sql-droptransform
 description: "remove a transform"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP TRANSFORM [ IF EXISTS ] FOR type_name LANGUAGE lang_name [ CASCADE | RESTRICT ]
 :::
 

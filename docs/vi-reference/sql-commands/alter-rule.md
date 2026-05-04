@@ -5,7 +5,7 @@ id: sql-alterrule
 description: "change the definition of a rule"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER RULE name ON table_name RENAME TO new_name
 :::
 

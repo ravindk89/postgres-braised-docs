@@ -5,7 +5,7 @@ id: sql-alterconversion
 description: "change the definition of a conversion"
 ---
 
-:::synopsis
+:::{.synopsis}
 ALTER CONVERSION name RENAME TO new_name
 ALTER CONVERSION name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
 ALTER CONVERSION name SET SCHEMA new_schema

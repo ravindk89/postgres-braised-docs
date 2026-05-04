@@ -5,7 +5,7 @@ id: sql-rollback-to
 description: "roll back to a savepoint"
 ---
 
-:::synopsis
+:::{.synopsis}
 ROLLBACK [ WORK | TRANSACTION ] TO [ SAVEPOINT ] savepoint_name
 :::
 

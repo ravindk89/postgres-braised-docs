@@ -5,7 +5,7 @@ id: sql-explain
 description: "show the execution plan of a statement"
 ---
 
-:::synopsis
+:::{.synopsis}
 EXPLAIN [ ( option [, ...] ) ] statement
 
 where option can be one of:

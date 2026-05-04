@@ -5,7 +5,7 @@ id: sql-dropdomain
 description: "remove a domain"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP DOMAIN [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
 :::
 

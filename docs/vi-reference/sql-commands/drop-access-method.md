@@ -5,7 +5,7 @@ id: sql-drop-access-method
 description: "remove an access method"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP ACCESS METHOD [ IF EXISTS ] name [ CASCADE | RESTRICT ]
 :::
 

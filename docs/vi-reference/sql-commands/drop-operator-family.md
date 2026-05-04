@@ -5,7 +5,7 @@ id: sql-dropopfamily
 description: "remove an operator family"
 ---
 
-:::synopsis
+:::{.synopsis}
 DROP OPERATOR FAMILY [ IF EXISTS ] name USING index_method [ CASCADE | RESTRICT ]
 :::
 

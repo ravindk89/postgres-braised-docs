@@ -5,7 +5,7 @@ id: sql-createfunction
 description: "define a new function"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE [ OR REPLACE ] FUNCTION
  name ( [ [ argmode ] [ argname ] argtype [ { DEFAULT | = } default_expr ] [, ...] ] )
  [ RETURNS rettype

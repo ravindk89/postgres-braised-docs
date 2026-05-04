@@ -5,7 +5,7 @@ id: sql-createeventtrigger
 description: "define a new event trigger"
 ---
 
-:::synopsis
+:::{.synopsis}
 CREATE EVENT TRIGGER name
  ON event
  [ WHEN filter_variable IN (filter_value [, ... ]) [ AND ... ] ]
