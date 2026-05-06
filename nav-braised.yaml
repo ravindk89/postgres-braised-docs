@@ -1,6 +1,5 @@
 - Home: index.md
 - label: Preface
-  kind: section
   url: preface/index.md
   items:
     - What Is PostgreSQL?: preface/what-is-postgresql/index.md
@@ -10,11 +9,9 @@
     - Bug Reporting Guidelines: preface/bug-reporting-guidelines/index.md
 - label: I. Tutorial
   collapsed: true
-  kind: section
   url: i-tutorial/index.md
   items:
     - label: 1. Getting Started
-      kind: section
       url: i-tutorial/getting-started/index.md
       items:
         - 1.1 Installation: i-tutorial/getting-started/installation.md
@@ -22,7 +19,6 @@
         - 1.3 Creating a Database: i-tutorial/getting-started/creating-a-database.md
         - 1.4 Accessing a Database: i-tutorial/getting-started/accessing-a-database.md
     - label: 2. The SQL Language
-      kind: section
       url: i-tutorial/the-sql-language/index.md
       items:
         - 2.1 Introduction: i-tutorial/the-sql-language/introduction.md
@@ -35,7 +31,6 @@
         - 2.8 Updates: i-tutorial/the-sql-language/updates.md
         - 2.9 Deletions: i-tutorial/the-sql-language/deletions.md
     - label: 3. Advanced Features
-      kind: section
       url: i-tutorial/advanced-features/index.md
       items:
         - 3.1 Introduction: i-tutorial/advanced-features/introduction.md
@@ -47,18 +42,15 @@
         - 3.7 Conclusion: i-tutorial/advanced-features/conclusion.md
 - label: II. The SQL Language
   collapsed: true
-  kind: section
   url: ii-the-sql-language/index.md
   items:
     - label: 4. SQL Syntax
-      kind: section
       url: ii-the-sql-language/04-sql-syntax/index.md
       items:
         - 4.1. Lexical Structure: ii-the-sql-language/04-sql-syntax/lexical-structure.md
         - 4.2. Value Expressions: ii-the-sql-language/04-sql-syntax/value-expressions.md
         - 4.3. Calling Functions: ii-the-sql-language/04-sql-syntax/calling-functions.md
     - label: 5. Data Definition
-      kind: section
       url: ii-the-sql-language/05-data-definition/index.md
       items:
         - 5.1. Table Basics: ii-the-sql-language/05-data-definition/table-basics.md
@@ -77,7 +69,6 @@
         - 5.14. Other Database Objects: ii-the-sql-language/05-data-definition/other-database-objects.md
         - 5.15. Dependency Tracking: ii-the-sql-language/05-data-definition/dependency-tracking.md
     - label: 6. Data Manipulation
-      kind: section
       url: ii-the-sql-language/06-data-manipulation/index.md
       items:
         - 6.1. Inserting Data: ii-the-sql-language/06-data-manipulation/inserting-data.md
@@ -85,7 +76,6 @@
         - 6.3. Deleting Data: ii-the-sql-language/06-data-manipulation/deleting-data.md
         - 6.4. Returning Data from Modified Rows: ii-the-sql-language/06-data-manipulation/returning-data-from-modified-rows.md
     - label: 7. Queries
-      kind: section
       url: ii-the-sql-language/07-queries/index.md
       items:
         - 7.1. Overview: ii-the-sql-language/07-queries/overview.md
@@ -97,7 +87,6 @@
         - 7.7. VALUES Lists: ii-the-sql-language/07-queries/values-lists.md
         - 7.8. WITH Queries (Common Table Expressions): ii-the-sql-language/07-queries/with-queries-common-table-expressions.md
     - label: 8. Data Types
-      kind: section
       url: ii-the-sql-language/08-data-types/index.md
       items:
         - 8.1. Numeric Types: ii-the-sql-language/08-data-types/numeric-types.md
@@ -122,7 +111,6 @@
         - 8.20. pg_lsn Type: ii-the-sql-language/08-data-types/pg-lsn-type.md
         - 8.21. Pseudo-Types: ii-the-sql-language/08-data-types/pseudo-types.md
     - label: 9. Functions and Operators
-      kind: section
       url: ii-the-sql-language/09-functions-and-operators/index.md
       items:
         - 9.1. Logical Operators: ii-the-sql-language/09-functions-and-operators/logical-operators.md
@@ -157,7 +145,6 @@
         - 9.30. Event Trigger Functions: ii-the-sql-language/09-functions-and-operators/event-trigger-functions.md
         - 9.31. Statistics Information Functions: ii-the-sql-language/09-functions-and-operators/statistics-information-functions.md
     - label: 10. Type Conversion
-      kind: section
       url: ii-the-sql-language/10-type-conversion/index.md
       items:
         - 10.1. Overview: ii-the-sql-language/10-type-conversion/overview.md
@@ -167,7 +154,6 @@
         - "10.5. UNION, CASE, and Related Constructs": ii-the-sql-language/10-type-conversion/union-case-and-related-constructs.md
         - 10.6. SELECT Output Columns: ii-the-sql-language/10-type-conversion/select-output-columns.md
     - label: 11. Indexes
-      kind: section
       url: ii-the-sql-language/11-indexes/index.md
       items:
         - 11.1. Introduction: ii-the-sql-language/11-indexes/introduction.md
@@ -183,7 +169,6 @@
         - 11.11. Indexes and Collations: ii-the-sql-language/11-indexes/indexes-and-collations.md
         - 11.12. Examining Index Usage: ii-the-sql-language/11-indexes/examining-index-usage.md
     - label: 12. Full Text Search
-      kind: section
       url: ii-the-sql-language/12-full-text-search/index.md
       items:
         - 12.1. Introduction: ii-the-sql-language/12-full-text-search/introduction.md
@@ -198,7 +183,6 @@
         - 12.10. psql Support: ii-the-sql-language/12-full-text-search/psql-support.md
         - 12.11. Limitations: ii-the-sql-language/12-full-text-search/limitations.md
     - label: 13. Concurrency Control
-      kind: section
       url: ii-the-sql-language/13-concurrency-control/index.md
       items:
         - 13.1. Introduction: ii-the-sql-language/13-concurrency-control/introduction.md
@@ -209,7 +193,6 @@
         - 13.6. Caveats: ii-the-sql-language/13-concurrency-control/caveats.md
         - 13.7. Locking and Indexes: ii-the-sql-language/13-concurrency-control/locking-and-indexes.md
     - label: 14. Performance Tips
-      kind: section
       url: ii-the-sql-language/14-performance-tips/index.md
       items:
         - 14.1. Using EXPLAIN: ii-the-sql-language/14-performance-tips/using-explain.md
@@ -218,7 +201,6 @@
         - 14.4. Populating a Database: ii-the-sql-language/14-performance-tips/populating-a-database.md
         - 14.5. Non-Durable Settings: ii-the-sql-language/14-performance-tips/non-durable-settings.md
     - label: 15. Parallel Query
-      kind: section
       url: ii-the-sql-language/15-parallel-query/index.md
       items:
         - 15.1. How Parallel Query Works: ii-the-sql-language/15-parallel-query/how-parallel-query-works.md
@@ -227,12 +209,10 @@
         - 15.4. Parallel Safety: ii-the-sql-language/15-parallel-query/parallel-safety.md
 - label: III. Server Administration
   collapsed: true
-  kind: section
   url: iii-server-administration/index.md
   items:
     - 16. Installation from Binaries: iii-server-administration/16-installation-from-binaries.md
     - label: 17. Installation from Source Code
-      kind: section
       url: iii-server-administration/17-installation-from-source-code/index.md
       items:
         - 17.1. Requirements: iii-server-administration/17-installation-from-source-code/requirements.md
@@ -243,7 +223,6 @@
         - 17.6. Supported Platforms: iii-server-administration/17-installation-from-source-code/supported-platforms.md
         - 17.7. Platform-Specific Notes: iii-server-administration/17-installation-from-source-code/platform-specific-notes.md
     - label: 18. Server Setup and Operation
-      kind: section
       url: iii-server-administration/18-server-setup-and-operation/index.md
       items:
         - 18.1. The PostgreSQL User Account: iii-server-administration/18-server-setup-and-operation/the-postgresql-user-account.md
@@ -259,7 +238,6 @@
         - 18.11. Secure TCP/IP Connections with SSH Tunnels: iii-server-administration/18-server-setup-and-operation/secure-tcp-ip-connections-with-ssh-tunnels.md
         - 18.12. Registering Event Log on Windows: iii-server-administration/18-server-setup-and-operation/registering-event-log-on-windows.md
     - label: 19. Server Configuration
-      kind: section
       url: iii-server-administration/19-server-configuration/index.md
       items:
         - 19.1. Setting Parameters: iii-server-administration/19-server-configuration/setting-parameters.md
@@ -281,7 +259,6 @@
         - 19.17. Developer Options: iii-server-administration/19-server-configuration/developer-options.md
         - 19.18. Short Options: iii-server-administration/19-server-configuration/short-options.md
     - label: 20. Client Authentication
-      kind: section
       url: iii-server-administration/20-client-authentication/index.md
       items:
         - 20.1. The pg_hba.conf File: iii-server-administration/20-client-authentication/the-pg-hba-conf-file.md
@@ -301,7 +278,6 @@
         - 20.15. OAuth Authorization/Authentication: iii-server-administration/20-client-authentication/oauth-authorization-authentication.md
         - 20.16. Authentication Problems: iii-server-administration/20-client-authentication/authentication-problems.md
     - label: 21. Database Roles
-      kind: section
       url: iii-server-administration/21-database-roles/index.md
       items:
         - 21.1. Database Roles: iii-server-administration/21-database-roles/database-roles.md
@@ -311,7 +287,6 @@
         - 21.5. Predefined Roles: iii-server-administration/21-database-roles/predefined-roles.md
         - 21.6. Function Security: iii-server-administration/21-database-roles/function-security.md
     - label: 22. Managing Databases
-      kind: section
       url: iii-server-administration/22-managing-databases/index.md
       items:
         - 22.1. Overview: iii-server-administration/22-managing-databases/overview.md
@@ -321,28 +296,24 @@
         - 22.5. Destroying a Database: iii-server-administration/22-managing-databases/destroying-a-database.md
         - 22.6. Tablespaces: iii-server-administration/22-managing-databases/tablespaces.md
     - label: 23. Localization
-      kind: section
       url: iii-server-administration/23-localization/index.md
       items:
         - 23.1. Locale Support: iii-server-administration/23-localization/locale-support.md
         - 23.2. Collation Support: iii-server-administration/23-localization/collation-support.md
         - 23.3. Character Set Support: iii-server-administration/23-localization/character-set-support.md
     - label: 24. Routine Database Maintenance Tasks
-      kind: section
       url: iii-server-administration/24-routine-database-maintenance-tasks/index.md
       items:
         - 24.1. Routine Vacuuming: iii-server-administration/24-routine-database-maintenance-tasks/routine-vacuuming.md
         - 24.2. Routine Reindexing: iii-server-administration/24-routine-database-maintenance-tasks/routine-reindexing.md
         - 24.3. Log File Maintenance: iii-server-administration/24-routine-database-maintenance-tasks/log-file-maintenance.md
     - label: 25. Backup and Restore
-      kind: section
       url: iii-server-administration/25-backup-and-restore/index.md
       items:
         - 25.1. SQL Dump: iii-server-administration/25-backup-and-restore/sql-dump.md
         - 25.2. File System Level Backup: iii-server-administration/25-backup-and-restore/file-system-level-backup.md
         - 25.3. Continuous Archiving and Point-in-Time Recovery (PITR): iii-server-administration/25-backup-and-restore/continuous-archiving-and-point-in-time-recovery-pitr.md
     - label: "26. High Availability, Load Balancing, and Replication"
-      kind: section
       url: iii-server-administration/26-high-availability-load-balancing-and-replication/index.md
       items:
         - 26.1. Comparison of Different Solutions: iii-server-administration/26-high-availability-load-balancing-and-replication/comparison-of-different-solutions.md
@@ -350,7 +321,6 @@
         - 26.3. Failover: iii-server-administration/26-high-availability-load-balancing-and-replication/failover.md
         - 26.4. Hot Standby: iii-server-administration/26-high-availability-load-balancing-and-replication/hot-standby.md
     - label: 27. Monitoring Database Activity
-      kind: section
       url: iii-server-administration/27-monitoring-database-activity/index.md
       items:
         - 27.1. Standard Unix Tools: iii-server-administration/27-monitoring-database-activity/standard-unix-tools.md
@@ -360,7 +330,6 @@
         - 27.5. Dynamic Tracing: iii-server-administration/27-monitoring-database-activity/dynamic-tracing.md
         - 27.6. Monitoring Disk Usage: iii-server-administration/27-monitoring-database-activity/monitoring-disk-usage.md
     - label: 28. Reliability and the Write-Ahead Log
-      kind: section
       url: iii-server-administration/28-reliability-and-the-write-ahead-log/index.md
       items:
         - 28.1. Reliability: iii-server-administration/28-reliability-and-the-write-ahead-log/reliability.md
@@ -370,7 +339,6 @@
         - 28.5. WAL Configuration: iii-server-administration/28-reliability-and-the-write-ahead-log/wal-configuration.md
         - 28.6. WAL Internals: iii-server-administration/28-reliability-and-the-write-ahead-log/wal-internals.md
     - label: 29. Logical Replication
-      kind: section
       url: iii-server-administration/29-logical-replication/index.md
       items:
         - 29.1. Publication: iii-server-administration/29-logical-replication/publication.md
@@ -388,7 +356,6 @@
         - 29.13. Upgrade: iii-server-administration/29-logical-replication/upgrade.md
         - 29.14. Quick Setup: iii-server-administration/29-logical-replication/quick-setup.md
     - label: 30. Just-in-Time Compilation (JIT)
-      kind: section
       url: iii-server-administration/30-just-in-time-compilation-jit/index.md
       items:
         - "30.1. What Is JIT compilation?": iii-server-administration/30-just-in-time-compilation-jit/what-is-jit-compilation.md
@@ -396,7 +363,6 @@
         - 30.3. Configuration: iii-server-administration/30-just-in-time-compilation-jit/configuration.md
         - 30.4. Extensibility: iii-server-administration/30-just-in-time-compilation-jit/extensibility.md
     - label: 31. Regression Tests
-      kind: section
       url: iii-server-administration/31-regression-tests/index.md
       items:
         - 31.1. Running the Tests: iii-server-administration/31-regression-tests/running-the-tests.md
@@ -406,11 +372,9 @@
         - 31.5. Test Coverage Examination: iii-server-administration/31-regression-tests/test-coverage-examination.md
 - label: IV. Client Interfaces
   collapsed: true
-  kind: section
   url: iv-client-interfaces/index.md
   items:
     - label: 32. libpq — C Library
-      kind: section
       url: iv-client-interfaces/32-libpq-c-library/index.md
       items:
         - 32.1. Database Connection Control Functions: iv-client-interfaces/32-libpq-c-library/database-connection-control-functions.md
@@ -437,7 +401,6 @@
         - 32.22. Building libpq Programs: iv-client-interfaces/32-libpq-c-library/building-libpq-programs.md
         - 32.23. Example Programs: iv-client-interfaces/32-libpq-c-library/example-programs.md
     - label: 33. Large Objects
-      kind: section
       url: iv-client-interfaces/33-large-objects/index.md
       items:
         - 33.1. Introduction: iv-client-interfaces/33-large-objects/introduction.md
@@ -446,7 +409,6 @@
         - 33.4. Server-Side Functions: iv-client-interfaces/33-large-objects/server-side-functions.md
         - 33.5. Example Program: iv-client-interfaces/33-large-objects/example-program.md
     - label: 34. ECPG — Embedded SQL in C
-      kind: section
       url: iv-client-interfaces/34-ecpg-embedded-sql-in-c/index.md
       items:
         - 34.1. The Concept: iv-client-interfaces/34-ecpg-embedded-sql-in-c/the-concept.md
@@ -467,7 +429,6 @@
         - 34.16. Oracle Compatibility Mode: iv-client-interfaces/34-ecpg-embedded-sql-in-c/oracle-compatibility-mode.md
         - 34.17. Internals: iv-client-interfaces/34-ecpg-embedded-sql-in-c/internals.md
     - label: 35. The Information Schema
-      kind: section
       url: iv-client-interfaces/35-the-information-schema/index.md
       items:
         - 35.1. The Schema: iv-client-interfaces/35-the-information-schema/the-schema.md
@@ -538,11 +499,9 @@
         - 35.66. views: iv-client-interfaces/35-the-information-schema/views.md
 - label: V. Server Programming
   collapsed: true
-  kind: section
   url: v-server-programming/index.md
   items:
     - label: 36. Extending SQL
-      kind: section
       url: v-server-programming/36-extending-sql/index.md
       items:
         - 36.1. How Extensibility Works: v-server-programming/36-extending-sql/how-extensibility-works.md
@@ -564,7 +523,6 @@
         - 36.17. Packaging Related Objects into an Extension: v-server-programming/36-extending-sql/packaging-related-objects-into-an-extension.md
         - 36.18. Extension Building Infrastructure: v-server-programming/36-extending-sql/extension-building-infrastructure.md
     - label: 37. Triggers
-      kind: section
       url: v-server-programming/37-triggers/index.md
       items:
         - 37.1. Overview of Trigger Behavior: v-server-programming/37-triggers/overview-of-trigger-behavior.md
@@ -572,7 +530,6 @@
         - 37.3. Writing Trigger Functions in C: v-server-programming/37-triggers/writing-trigger-functions-in-c.md
         - 37.4. A Complete Trigger Example: v-server-programming/37-triggers/a-complete-trigger-example.md
     - label: 38. Event Triggers
-      kind: section
       url: v-server-programming/38-event-triggers/index.md
       items:
         - 38.1. Overview of Event Trigger Behavior: v-server-programming/38-event-triggers/overview-of-event-trigger-behavior.md
@@ -581,7 +538,6 @@
         - 38.4. A Table Rewrite Event Trigger Example: v-server-programming/38-event-triggers/a-table-rewrite-event-trigger-example.md
         - 38.5. A Database Login Event Trigger Example: v-server-programming/38-event-triggers/a-database-login-event-trigger-example.md
     - label: 39. The Rule System
-      kind: section
       url: v-server-programming/39-the-rule-system/index.md
       items:
         - 39.1. The Query Tree: v-server-programming/39-the-rule-system/the-query-tree.md
@@ -593,7 +549,6 @@
         - 39.7. Rules Versus Triggers: v-server-programming/39-the-rule-system/rules-versus-triggers.md
     - 40. Procedural Languages: v-server-programming/40-procedural-languages/index.md
     - label: 41. PL/pgSQL — SQL Procedural Language
-      kind: section
       url: v-server-programming/41-pl-pgsql-sql-procedural-language/index.md
       items:
         - 41.1. Overview: v-server-programming/41-pl-pgsql-sql-procedural-language/overview.md
@@ -610,7 +565,6 @@
         - 41.12. Tips for Developing in PL/pgSQL: v-server-programming/41-pl-pgsql-sql-procedural-language/tips-for-developing-in-pl-pgsql.md
         - 41.13. Porting from Oracle PL/SQL: v-server-programming/41-pl-pgsql-sql-procedural-language/porting-from-oracle-pl-sql.md
     - label: 42. PL/Tcl — Tcl Procedural Language
-      kind: section
       url: v-server-programming/42-pl-tcl-tcl-procedural-language/index.md
       items:
         - 42.1. Overview: v-server-programming/42-pl-tcl-tcl-procedural-language/overview.md
@@ -626,7 +580,6 @@
         - 42.11. PL/Tcl Configuration: v-server-programming/42-pl-tcl-tcl-procedural-language/pl-tcl-configuration.md
         - 42.12. Tcl Procedure Names: v-server-programming/42-pl-tcl-tcl-procedural-language/tcl-procedure-names.md
     - label: 43. PL/Perl — Perl Procedural Language
-      kind: section
       url: v-server-programming/43-pl-perl-perl-procedural-language/index.md
       items:
         - 43.1. PL/Perl Functions and Arguments: v-server-programming/43-pl-perl-perl-procedural-language/pl-perl-functions-and-arguments.md
@@ -638,7 +591,6 @@
         - 43.7. PL/Perl Event Triggers: v-server-programming/43-pl-perl-perl-procedural-language/pl-perl-event-triggers.md
         - 43.8. PL/Perl Under the Hood: v-server-programming/43-pl-perl-perl-procedural-language/pl-perl-under-the-hood.md
     - label: 44. PL/Python — Python Procedural Language
-      kind: section
       url: v-server-programming/44-pl-python-python-procedural-language/index.md
       items:
         - 44.1. PL/Python Functions: v-server-programming/44-pl-python-python-procedural-language/pl-python-functions.md
@@ -653,7 +605,6 @@
         - 44.10. Python 2 vs. Python 3: v-server-programming/44-pl-python-python-procedural-language/python-2-vs-python-3.md
         - 44.11. Environment Variables: v-server-programming/44-pl-python-python-procedural-language/environment-variables.md
     - label: 45. Server Programming Interface
-      kind: section
       url: v-server-programming/45-server-programming-interface/index.md
       items:
         - 45.1. Interface Functions: v-server-programming/45-server-programming-interface/interface-functions.md
@@ -664,7 +615,6 @@
         - 45.6. Examples: v-server-programming/45-server-programming-interface/examples.md
     - 46. Background Worker Processes: v-server-programming/46-background-worker-processes.md
     - label: 47. Logical Decoding
-      kind: section
       url: v-server-programming/47-logical-decoding/index.md
       items:
         - 47.1. Logical Decoding Examples: v-server-programming/47-logical-decoding/logical-decoding-examples.md
@@ -680,7 +630,6 @@
     - 48. Replication Progress Tracking: v-server-programming/48-replication-progress-tracking.md
     - 49. Archive Modules: v-server-programming/49-archive-modules/index.md
     - label: 50. OAuth Validator Modules
-      kind: section
       url: v-server-programming/50-oauth-validator-modules/index.md
       items:
         - 50.1. Safely Designing a Validator Module: v-server-programming/50-oauth-validator-modules/safely-designing-a-validator-module.md
@@ -688,11 +637,9 @@
         - 50.3. OAuth Validator Callbacks: v-server-programming/50-oauth-validator-modules/oauth-validator-callbacks.md
 - label: VI. Reference
   collapsed: true
-  kind: section
   url: vi-reference/index.md
   items:
     - label: I. SQL Commands
-      kind: section
       url: vi-reference/sql-commands/index.md
       items:
         - ABORT: vi-reference/sql-commands/abort.md
@@ -879,7 +826,6 @@
         - VACUUM: vi-reference/sql-commands/vacuum.md
         - VALUES: vi-reference/sql-commands/values.md
     - label: II. PostgreSQL Client Applications
-      kind: section
       url: vi-reference/client-apps/index.md
       items:
         - clusterdb: vi-reference/client-apps/clusterdb.md
@@ -904,7 +850,6 @@
         - reindexdb: vi-reference/client-apps/reindexdb.md
         - vacuumdb: vi-reference/client-apps/vacuumdb.md
     - label: III. PostgreSQL Server Applications
-      kind: section
       url: vi-reference/server-apps/index.md
       items:
         - initdb: vi-reference/server-apps/initdb.md
@@ -923,11 +868,9 @@
         - postgres: vi-reference/server-apps/postgres.md
 - label: VII. Internals
   collapsed: true
-  kind: section
   url: vii-internals/index.md
   items:
     - label: 51. Overview of PostgreSQL Internals
-      kind: section
       url: vii-internals/51-overview-of-postgresql-internals/index.md
       items:
         - 51.1. The Path of a Query: vii-internals/51-overview-of-postgresql-internals/the-path-of-a-query.md
@@ -937,7 +880,6 @@
         - 51.5. Planner/Optimizer: vii-internals/51-overview-of-postgresql-internals/planner-optimizer.md
         - 51.6. Executor: vii-internals/51-overview-of-postgresql-internals/executor.md
     - label: 52. System Catalogs
-      kind: section
       url: vii-internals/52-system-catalogs/index.md
       items:
         - 52.1. Overview: vii-internals/52-system-catalogs/overview.md
@@ -1006,7 +948,6 @@
         - 52.64. pg_type: vii-internals/52-system-catalogs/pg-type.md
         - 52.65. pg_user_mapping: vii-internals/52-system-catalogs/pg-user-mapping.md
     - label: 53. System Views
-      kind: section
       url: vii-internals/53-system-views/index.md
       items:
         - 53.1. Overview: vii-internals/53-system-views/overview.md
@@ -1048,7 +989,6 @@
         - 53.37. pg_views: vii-internals/53-system-views/pg-views.md
         - 53.38. pg_wait_events: vii-internals/53-system-views/pg-wait-events.md
     - label: 54. Frontend/Backend Protocol
-      kind: section
       url: vii-internals/54-frontend-backend-protocol/index.md
       items:
         - 54.1. Overview: vii-internals/54-frontend-backend-protocol/overview.md
@@ -1062,7 +1002,6 @@
         - 54.9. Logical Replication Message Formats: vii-internals/54-frontend-backend-protocol/logical-replication-message-formats.md
         - 54.10. Summary of Changes since Protocol 2.0: vii-internals/54-frontend-backend-protocol/summary-of-changes-since-protocol-2-0.md
     - label: 55. PostgreSQL Coding Conventions
-      kind: section
       url: vii-internals/55-postgresql-coding-conventions/index.md
       items:
         - 55.1. Formatting: vii-internals/55-postgresql-coding-conventions/formatting.md
@@ -1070,14 +1009,12 @@
         - 55.3. Error Message Style Guide: vii-internals/55-postgresql-coding-conventions/error-message-style-guide.md
         - 55.4. Miscellaneous Coding Conventions: vii-internals/55-postgresql-coding-conventions/miscellaneous-coding-conventions.md
     - label: 56. Native Language Support
-      kind: section
       url: vii-internals/56-native-language-support/index.md
       items:
         - 56.1. For the Translator: vii-internals/56-native-language-support/for-the-translator.md
         - 56.2. For the Programmer: vii-internals/56-native-language-support/for-the-programmer.md
     - 57. Writing a Procedural Language Handler: vii-internals/57-writing-a-procedural-language-handler.md
     - label: 58. Writing a Foreign Data Wrapper
-      kind: section
       url: vii-internals/58-writing-a-foreign-data-wrapper/index.md
       items:
         - 58.1. Foreign Data Wrapper Functions: vii-internals/58-writing-a-foreign-data-wrapper/foreign-data-wrapper-functions.md
@@ -1086,12 +1023,10 @@
         - 58.4. Foreign Data Wrapper Query Planning: vii-internals/58-writing-a-foreign-data-wrapper/foreign-data-wrapper-query-planning.md
         - 58.5. Row Locking in Foreign Data Wrappers: vii-internals/58-writing-a-foreign-data-wrapper/row-locking-in-foreign-data-wrappers.md
     - label: 59. Writing a Table Sampling Method
-      kind: section
       url: vii-internals/59-writing-a-table-sampling-method/index.md
       items:
         - 59.1. Sampling Method Support Functions: vii-internals/59-writing-a-table-sampling-method/sampling-method-support-functions.md
     - label: 60. Writing a Custom Scan Provider
-      kind: section
       url: vii-internals/60-writing-a-custom-scan-provider/index.md
       items:
         - 60.1. Creating Custom Scan Paths: vii-internals/60-writing-a-custom-scan-provider/creating-custom-scan-paths.md
@@ -1100,7 +1035,6 @@
     - 61. Genetic Query Optimizer: vii-internals/61-genetic-query-optimizer/index.md
     - 62. Table Access Method Interface Definition: vii-internals/62-table-access-method-interface-definition.md
     - label: 63. Index Access Method Interface Definition
-      kind: section
       url: vii-internals/63-index-access-method-interface-definition/index.md
       items:
         - 63.1. Basic API Structure for Indexes: vii-internals/63-index-access-method-interface-definition/basic-api-structure-for-indexes.md
@@ -1110,13 +1044,11 @@
         - 63.5. Index Uniqueness Checks: vii-internals/63-index-access-method-interface-definition/index-uniqueness-checks.md
         - 63.6. Index Cost Estimation Functions: vii-internals/63-index-access-method-interface-definition/index-cost-estimation-functions.md
     - label: 64. Write Ahead Logging for Extensions
-      kind: section
       url: vii-internals/64-write-ahead-logging-for-extensions/index.md
       items:
         - 64.1. Generic WAL Records: vii-internals/64-write-ahead-logging-for-extensions/generic-wal-records.md
         - 64.2. Custom WAL Resource Managers: vii-internals/64-write-ahead-logging-for-extensions/custom-wal-resource-managers.md
     - label: 65. Built-in Index Access Methods
-      kind: section
       url: vii-internals/65-built-in-index-access-methods/index.md
       items:
         - 65.1. B-Tree Indexes: vii-internals/65-built-in-index-access-methods/b-tree-indexes.md
@@ -1126,7 +1058,6 @@
         - 65.5. BRIN Indexes: vii-internals/65-built-in-index-access-methods/brin-indexes.md
         - 65.6. Hash Indexes: vii-internals/65-built-in-index-access-methods/hash-indexes.md
     - label: 66. Database Physical Storage
-      kind: section
       url: vii-internals/66-database-physical-storage/index.md
       items:
         - 66.1. Database File Layout: vii-internals/66-database-physical-storage/database-file-layout.md
@@ -1138,7 +1069,6 @@
         - 66.7. Heap-Only Tuples (HOT): vii-internals/66-database-physical-storage/heap-only-tuples-hot.md
     - 67. Transaction Processing: vii-internals/67-transaction-processing/index.md
     - label: 68. System Catalog Declarations and Initial Contents
-      kind: section
       url: vii-internals/68-system-catalog-declarations-and-initial-contents/index.md
       items:
         - 68.1. System Catalog Declaration Rules: vii-internals/68-system-catalog-declarations-and-initial-contents/system-catalog-declaration-rules.md
@@ -1148,7 +1078,6 @@
         - 68.5. Structure of the Bootstrap BKI File: vii-internals/68-system-catalog-declarations-and-initial-contents/structure-of-the-bootstrap-bki-file.md
         - 68.6. BKI Example: vii-internals/68-system-catalog-declarations-and-initial-contents/bki-example.md
     - label: 69. How the Planner Uses Statistics
-      kind: section
       url: vii-internals/69-how-the-planner-uses-statistics/index.md
       items:
         - 69.1. Row Estimation Examples: vii-internals/69-how-the-planner-uses-statistics/row-estimation-examples.md
@@ -1157,12 +1086,10 @@
     - 70. Backup Manifest Format: vii-internals/70-backup-manifest-format/index.md
 - label: VIII. Appendixes
   collapsed: true
-  kind: section
   url: viii-appendixes/index.md
   items:
     - A. PostgreSQL Error Codes: viii-appendixes/a-postgresql-error-codes.md
     - label: B. Date/Time Support
-      kind: section
       url: viii-appendixes/b-date-time-support/index.md
       items:
         - B.1. Date/Time Input Interpretation: viii-appendixes/b-date-time-support/b-1-date-time-input-interpretation.md
@@ -1174,14 +1101,12 @@
         - B.7. Julian Dates: viii-appendixes/b-date-time-support/b-7-julian-dates.md
     - C. SQL Key Words: viii-appendixes/c-sql-key-words.md
     - label: D. SQL Conformance
-      kind: section
       url: viii-appendixes/d-sql-conformance/index.md
       items:
         - D.1. Supported Features: viii-appendixes/d-sql-conformance/d-1-supported-features.md
         - D.2. Unsupported Features: viii-appendixes/d-sql-conformance/d-2-unsupported-features.md
         - D.3. XML Limits and Conformance to SQL/XML: viii-appendixes/d-sql-conformance/d-3-xml-limits-and-conformance-to-sql-xml.md
     - label: E. Release Notes
-      kind: section
       url: viii-appendixes/e-release-notes/index.md
       items:
         - E.1. Release 18.3: viii-appendixes/e-release-notes/e-1-release-18-3.md
@@ -1190,7 +1115,6 @@
         - E.4. Release 18: viii-appendixes/e-release-notes/e-4-release-18.md
         - E.5. Prior Releases: viii-appendixes/e-release-notes/e-5-prior-releases.md
     - label: F. Additional Supplied Modules and Extensions
-      kind: section
       url: viii-appendixes/f-additional-supplied-modules-and-extensions/index.md
       items:
         - F.1. amcheck — tools to verify table and index consistency: viii-appendixes/f-additional-supplied-modules-and-extensions/f-1-amcheck-tools-to-verify-table-and-index-consistency.md
@@ -1244,7 +1168,6 @@
         - F.49. uuid-ossp — a UUID generator: viii-appendixes/f-additional-supplied-modules-and-extensions/f-49-uuid-ossp-a-uuid-generator.md
         - F.50. xml2 — XPath querying and XSLT functionality: viii-appendixes/f-additional-supplied-modules-and-extensions/f-50-xml2-xpath-querying-and-xslt-functionality.md
     - label: G. Additional Supplied Programs
-      kind: section
       url: viii-appendixes/g-additional-supplied-programs/index.md
       items:
         - G.1. Client Applications: viii-appendixes/g-additional-supplied-programs/g-1-client-applications.md
@@ -1252,7 +1175,6 @@
     - H. External Projects: viii-appendixes/h-external-projects/index.md
     - I. The Source Code Repository: viii-appendixes/the-source-code-repository/index.md
     - label: J. Documentation
-      kind: section
       url: viii-appendixes/j-documentation/index.md
       items:
         - J.1. DocBook: viii-appendixes/j-documentation/j-1-docbook.md

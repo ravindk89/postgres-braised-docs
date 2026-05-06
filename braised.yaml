@@ -11,3 +11,13 @@ css:
   input: theme/main.css
 
 nav: nav-braised.yaml
+
+artifacts:
+  output_dir: artifacts/
+
+mcp:
+  artifacts_dir: artifacts/
+  dist_dir: dist/
+  serve:
+    host: 127.0.0.1
+    port: 8082
